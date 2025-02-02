@@ -1,0 +1,38 @@
+version(2);
+project_name = "4coder custom";
+
+indent_with_tabs = false;
+indent_width = 2;
+session_file = ".session.4coder";
+
+patterns = {
+    "*.c",
+    "*.cpp",
+    "*.h",
+    "*.hpp",
+    "*.m",
+    "*.mm",
+    "*.bat",
+    "*.sh",
+    "*.4coder",
+    "*.txt",
+};
+
+blacklist_patterns = { ".*", };
+
+paths = {
+    { .path = ".", .recursive = true, .relative = true, },
+};
+
+load_paths = {
+    .win   = paths,
+    .linux = paths,
+};
+
+commands = {
+    .build    = { .win = "build.bat",    .out = "*compilation*", .footer_panel=true, .save_dirty_files=true,  .cursor_at_end=true,  },
+};
+
+fkey_command = {
+    .F1 = "build",
+};
