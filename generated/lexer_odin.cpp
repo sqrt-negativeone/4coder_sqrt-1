@@ -43,899 +43,886 @@ lexeme_table_lookup(u64 *hash_array, String_Const_u8 *key_array,
 }
 
 #endif
-u64 odin_main_keys_hash_array[292] = {
-0x9db58077a57c1e05,0xf81e5fbe6fb42885,0x9db58077a57c296d,0x05c110094c2e7b25,
-0x57b08b9aa9a10105,0x0000000000000000,0x9db58077a57c503b,0x0000000000000000,
-0x57b08b9aa9a1022d,0x9db58077a54bb895,0x0000000000000000,0x0000000000000000,
-0x9db58077a57c4721,0xf81e5fbb36c36429,0xe281066513b39cb7,0x0000000000000000,
-0x57b08b9aa9a10235,0x9db58077a57c44dd,0x9db58077a57c2859,0x3b4ab0d624673125,
-0x0000000000000000,0x709cfaaca87fa6c9,0x0000000000000000,0xedc9e5b939c08e67,
-0x9db58077a57df531,0x05c1f3ea813d809d,0x0000000000000000,0x0000000000000000,
+u64 odin_main_keys_hash_array[287] = {
+0x1dd89d38cc79d2af,0x0000000000000000,0xbcc345dca7988aab,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x148c8aef7e7683af,0xb6e688937ee31867,
+0x0000000000000000,0x827d19e0dfa5a6a3,0x78d0e720125da5ff,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x0000000000000000,0x1dd89d5ad70dc867,
+0x148c8aef7df4bf79,0xb6e688870d03524d,0x0000000000000000,0x78d060dd62195cbd,
+0x148c8aef7d90d5bb,0x24f9f810575b0373,0x0000000000000000,0x0000000000000000,
+0x540c2b81420d14cd,0x540c2b81636659ad,0x0000000000000000,0x0000000000000000,
 0x0000000000000000,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x8c5cea0a51287175,0x1ecbf59531f5d597,0x3b4aaf94ec779bcb,
+0x1dd89dba15c28b63,0x0000000000000000,0x0000000000000000,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x540c2b816015f8b9,0xb6e6888dc7b2aafb,
+0x0000000000000000,0xb6e6889217a9815f,0x0000000000000000,0x827d19e0dfa6f29d,
 0x0000000000000000,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x558c3186602910d5,0x0000000000000000,0x0000000000000000,0x3b4aafa96595cd07,
-0x0000000000000000,0x05c112a3b579ec61,0xf81e5fbb3494b675,0x0000000000000000,
-0x0000000000000000,0xf81e5fbe6b2e9135,0x3b4aaf94c3bc8829,0x3b4aafa99c6b9227,
-0xf81e5fbb364e13a7,0x3b4ab0d64a85354d,0x0000000000000000,0x0000000000000000,
-0x05c1f3ea813f78e5,0x709cfaaca861db91,0x0000000000000000,0x0000000000000000,
-0x709cfaaca87508d5,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x4c89cf29a5ff18b1,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x3b4ab0dfac581925,0xf81e5fbb3166aaf1,0x3b4ab0d64864f175,
-0x8c04bc631f9c81e7,0x0000000000000000,0x709cfaacbdb8f507,0x0000000000000000,
-0xf81e5fbe614cb14d,0xf81e5fbb36e130e9,0x0000000000000000,0x0000000000000000,
-0x709cfaacbd193d11,0x0000000000000000,0x3b4aaf963d7c589f,0x0000000000000000,
 0x0000000000000000,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0xe212b8ccf8a1595f,0x0000000000000000,
-0x0000000000000000,0xedc8a156974c9559,0x127680f3d4d61597,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0xd393124cac188f97,0x05c1f4fc2ff4a9a7,
-0x0000000000000000,0xf81e5fbb3494ac69,0xf81e5fbb316abebf,0x05c1103894e83327,
+0x0000000000000000,0x540c2b816d6c7c75,0x0000000000000000,0x0000000000000000,
+0x540c2b81421f6319,0x1dd89dee259cdb53,0x24be31b79ded0f79,0x0000000000000000,
+0x0000000000000000,0x148c8aef7e6a6feb,0x24ba01d6e8c1b0cd,0x0000000000000000,
+0x0000000000000000,0x78d1a6543a40413d,0x540c2b8173d2cd87,0xb6e6888dd2794ecb,
+0xb6e6888fa7476d61,0x0000000000000000,0x0000000000000000,0xb6e68891abe4aad9,
+0x1c41dc7052021f47,0x0000000000000000,0x78d03ba90858752f,0x0000000000000000,
+0x540c2b81600aa5b9,0x0000000000000000,0x827d19e0dfa417cb,0x72a80229735b0f0f,
+0x148c8aef7dcf0f97,0x0000000000000000,0x0000000000000000,0x0000000000000000,
+0x148c8aef7db9d5a9,0xb9def3ca10b1360f,0xb9def3ca10b121e1,0x72a80229735b1393,
 0x0000000000000000,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x749e52c8937334f1,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x05c1f94c523e221d,0x0000000000000000,0x0000000000000000,0x9db58077a57ddb4f,
-0x0000000000000000,0xf81e5fbb13e11e71,0xf81e5fbe6b2c32a9,0xf81e5fbb36c36125,
+0x0000000000000000,0x827d19e0dfa6f62b,0x540c2b81717dd57f,0x0000000000000000,
 0x0000000000000000,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x3b4aafad8b35702f,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x0000000000000000,0x709cfaacbd2593a7,
-0x0000000000000000,0x3b4ab0d727608659,0xf81e5fbb36e5b925,0xe2151a6d6782941f,
-0x878dc7fc8643f4a9,0xf81e5fbe6b2c3075,0x0000000000000000,0x709cfaacbd257607,
-0x9db58077a54b8931,0xe21281da364557a9,0x05c1f882efe53083,0x0000000000000000,
-0x0000000000000000,0xf81e5fbe6b244a29,0x9db58077a54bbb67,0x0000000000000000,
-0x0000000000000000,0xedc8bb7f85a233d9,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x0000000000000000,0x709cfaacbd0e41b7,
-0x3b4aaf9617e14eb5,0x3b4aaf94c3bc8d25,0x05c1f90d1de3ba37,0x0000000000000000,
+0x1dd89ec412b9cc0d,0x0000000000000000,0x148c8aef7db7fedf,0x0000000000000000,
+0xbb67d79854a6069b,0x0000000000000000,0x7960659604533fc7,0x540c2b816f75deb9,
+0x540c2b81606ca36f,0x540c2b81685482ad,0x0000000000000000,0x827d19e0dfa69ecb,
+0x0000000000000000,0x0000000000000000,0xb6e6888fb9a202bd,0x148c8aef7da89a47,
+0x0000000000000000,0x78d0456faae4eb75,0x0000000000000000,0x0000000000000000,
+0xa4c4118b0a2016cb,0x0000000000000000,0x0000000000000000,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x78d1bb9ea27ac683,0x72a80229735b0d01,
+0x148c8aef7da89a55,0x2ca98c6d5a3d5f47,0x1dd89c64a3372311,0x0000000000000000,
+0x0000000000000000,0x78d19ff0e4aa0ff1,0x827d19e0dfa41921,0x24be016f6164ed61,
+0x0000000000000000,0x0000000000000000,0xb6e68893708e15ff,0x827d19e0dfa64ad1,
+0x1dd89e8bc889721d,0x1dd89eab41f06379,0x0000000000000000,0x0000000000000000,
+0x148c8aef7dfccc8b,0x0000000000000000,0x148c8aef7df4a2d5,0x0000000000000000,
+0x540c2b81605207d5,0x0000000000000000,0x0000000000000000,0x0000000000000000,
+0xdf5eb454c00158c7,0x0000000000000000,0xde4109155364c54f,0x0000000000000000,
+0xb6e688870d0352d9,0x1dd89ec2938bd9d5,0x827d19e0dfa6442b,0x827d19e0dfa6f66d,
+0x0000000000000000,0x540c2b816f8e686d,0x78d011558d71a6b1,0x540c2b8163665919,
+0xbf8ca5781a9058c7,0x0000000000000000,0x0000000000000000,0xb6e688937ef08d07,
+0x540c2b81420d18b9,0x148c8aef7db5d8ad,0x24ba01d6e8c1bfcb,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x0000000000000000,0x827d19e0dfa6f67d,
+0x0000000000000000,0x0000000000000000,0x0000000000000000,0x148c8aef7dc1cb0f,
+0x1dd89be7f8ea9da1,0x827d19e0dfa65bcd,0x0000000000000000,0x72a80229735b0d39,
 0x0000000000000000,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x709cfaacbdc376f9,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x3b4aaf94eeed81e7,0x0000000000000000,
-0x709cfaacbd253f69,0xf81e5fbb36f6ef89,0x709cfaacbd249e97,0x57b08b9aa9a101af,
-0x0000000000000000,0xf81e5fbb36f6d675,0xf81e5fbb3116e47b,0x0000000000000000,
-0x0000000000000000,0x8c150297e7c7f959,0x8c572180e63768e7,0x57b08b9aa9a102db,
-0x05c1f977be649b3f,0x0000000000000000,0x4d2deef89ccc4997,0x0000000000000000,
-0x4a39e1e30717414d,0x0000000000000000,0x709cfaaca860fecf,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x57b08b9aa9a13d13,0x0000000000000000,
-0x0000000000000000,0x05c110089159f069,0x0000000000000000,0x0000000000000000,
-0x9db58077a57c2911,0x05c1f8822394e659,0x0000000000000000,0x0000000000000000,
-0x9db58077a57df279,0x9db58077a57c4475,0x3b4ab0d624673429,0x0000000000000000,
-0x05c112a3b579ed05,0xf81e5fbe6b2e9789,0x0000000000000000,0x0000000000000000,
-0xe21539a172b016fd,0x9db58077a57dddf9,0x0000000000000000,0x0000000000000000,
-0x3b4ab0d648e0c9b5,0x3b4aafa99cc2aa99,0xedc8ab56a4ba789f,0x0000000000000000,
-0x0000000000000000,0xf81e5fbfa30a1cd9,0xf81e5fbb348bc035,0x0000000000000000,
-0x05c1100af1ba2929,0x4d38255c658f6939,0x0000000000000000,0xf81e5fbe60749f47,
-0x709cfaaca808b0e7,0x05c1103a5a27e7f9,0x9db58077a54bf5e5,0x0000000000000000,
-0x558c318660291991,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0xedc8bc81f841b091,0x709cfaaca8085121,0x3b4ab0d68340ca07,0x8c5c8637f6c46127,
+0x827d19e0dfa6b6a3,0x0000000000000000,0xb6e6888dd3d7d161,0x540c2b816f8e57b9,
+0x540c2b8142f51fb9,0x78d06bd96e19d299,0x0000000000000000,0x0000000000000000,
+0x0000000000000000,0x827d19e0dfa6f8d1,0x0000000000000000,0x1dd89dbb39807c59,
+0x1dd89be7f8e13479,0x540c2b8147108111,0x72a80229735b0d4b,0x540c2b8165614e6d,
+0x0000000000000000,0x0000000000000000,0x827d19e0dfa69bcd,0x1dd89d753a81b975,
+0x540c2b8142f51c6d,0x148c8aef7daf42b5,0x0000000000000000,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x24f90a6836571b47,0xb6e6888e1f01c6cb,
+0x540c2b8168548319,0x24a19e4a032d3615,0xb6e68891abe4aa4d,0x0000000000000000,
 0x0000000000000000,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0xedc8aa1b47306a59,0xf81e5fbb34b68529,0x0000000000000000,0x0000000000000000,
-0x9db58077a54b899d,0x3b4aaf967586c4e1,0xf81e5fbe6b244725,0xf81e5fbb3057837f,
-0xe2128c80e110e21f,0x0000000000000000,0x0000000000000000,0x709cfaacbd249ee7,
-0x9db58077a57df2ad,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0xedc9a1d0fdd69499,0x4c89cf29a5ff1979,0x05c1124dede52447,0x0000000000000000,
-0x0000000000000000,0xf81e5fbb348bc189,0x3b4aaf94b3d1517b,0x709cfaacbd1b8263,
-0x0000000000000000,0x0000000000000000,0x0000000000000000,0x3b4aafa99c6c7727,
-0xf81e5fbb304e1f29,0x0000000000000000,0xd905f4609833f223,0x0000000000000000,
-0x9db58077a57c0299,0x709cfaaca99744dd,0x8c559c5c4bb7771d,0x0000000000000000,
-0x3b4ab0d6848bbd8d,0x0000000000000000,0x749f33d8de12df97,0x0000000000000000,
-0x9db58077a54b89c5,0xf81e5fbb34b689e5,0x0000000000000000,0x0000000000000000,
+0xb6e688937effb1ff,0x540c2b8147b04727,0x0000000000000000,0x0000000000000000,
+0x78d011bfda226385,0xb6e68892e513f3b9,0x0000000000000000,0x0000000000000000,
+0x827d19e0dfa4108d,0x148c8aef7e7541b1,0x78d063096664e9ff,0x540c2b81421f62ad,
+0x0000000000000000,0x0000000000000000,0x540c2b81716ce6cb,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x0000000000000000,0x1dd89d146a2fde67,
+0x0000000000000000,0x0000000000000000,0xb6e6888f1006cf35,0x827d19e0dfa5a78f,
+0xb6e68893c10da921,0x0000000000000000,0x540c2b816f75dacd,0x24a33c2754dcaaf9,
+0x540c2b81600aa0cd,0x0000000000000000,0x540c2b8174fc46cb,0xb6e6889113e882f9,
+0x827d19e0dfa698a1,0x0000000000000000,0x78d06b9251b152ad,0x0000000000000000,
+0x0000000000000000,0xb6e688901bcfd4cd,0xb6e688937c731563,0x24f97a999964dea7,
+0x1dd89d3ccc6e0b8f,0xb6e6888721aa6507,0x0000000000000000,0x0000000000000000,
+0x1dd89dbb398010ff,0x0000000000000000,0x24c0df3216f71185,0x0000000000000000,
+0x827d19e0dfa4188d,0x0000000000000000,0x0000000000000000,0x0000000000000000,
+0x148c8aef7ddcea5f,0x827d19e0dfa64a3d,0x827d19e0dfa6836b,0x148c8aef7e774a0f,
+0x0000000000000000,0x0000000000000000,0x72a80229735b0fdb,0x0000000000000000,
+0x540c2b816015fbed,0x0000000000000000,0x540c2b817170c963,
 };
-u8 odin_main_keys_key_array_0[] = {0x69,0x6e,0x74,};
-u8 odin_main_keys_key_array_1[] = {0x75,0x6e,0x69,0x6f,0x6e,};
-u8 odin_main_keys_key_array_2[] = {0x66,0x31,0x36,};
-u8 odin_main_keys_key_array_3[] = {0x66,0x6f,0x72,0x65,0x69,0x67,0x6e,};
-u8 odin_main_keys_key_array_4[] = {0x62,0x38,};
-u8 odin_main_keys_key_array_6[] = {0x6d,0x61,0x70,};
-u8 odin_main_keys_key_array_8[] = {0x69,0x6e,};
+u8 odin_main_keys_key_array_0[] = {0x76,0x69,0x72,0x74,0x75,0x61,0x6c,};
+u8 odin_main_keys_key_array_2[] = {0x71,0x75,0x61,0x74,0x65,0x72,0x6e,0x69,0x6f,0x6e,0x36,0x34,};
+u8 odin_main_keys_key_array_6[] = {0x74,0x68,0x69,0x73,};
+u8 odin_main_keys_key_array_7[] = {0x73,0x74,0x72,0x69,0x6e,0x67,};
 u8 odin_main_keys_key_array_9[] = {0x6e,0x65,0x77,};
-u8 odin_main_keys_key_array_12[] = {0x69,0x33,0x32,};
-u8 odin_main_keys_key_array_13[] = {0x66,0x33,0x32,0x62,0x65,};
-u8 odin_main_keys_key_array_14[] = {0x74,0x68,0x72,0x65,0x61,0x64,0x5f,0x6c,0x6f,0x63,0x61,0x6c,};
-u8 odin_main_keys_key_array_16[] = {0x69,0x66,};
-u8 odin_main_keys_key_array_17[] = {0x69,0x31,0x36,};
-u8 odin_main_keys_key_array_18[] = {0x66,0x36,0x34,};
-u8 odin_main_keys_key_array_19[] = {0x69,0x31,0x32,0x38,0x6c,0x65,};
-u8 odin_main_keys_key_array_21[] = {0x70,0x72,0x6f,0x63,};
-u8 odin_main_keys_key_array_23[] = {0x74,0x79,0x70,0x65,0x6e,0x61,0x6d,0x65,};
-u8 odin_main_keys_key_array_24[] = {0x62,0x33,0x32,};
-u8 odin_main_keys_key_array_25[] = {0x74,0x79,0x70,0x65,0x5f,0x6f,0x66,};
-u8 odin_main_keys_key_array_33[] = {0x6e,0x6f,0x5f,0x69,0x6e,0x6c,0x69,0x6e,0x65,};
-u8 odin_main_keys_key_array_34[] = {0x73,0x74,0x61,0x74,0x69,0x63,0x5f,0x63,0x61,0x73,0x74,};
-u8 odin_main_keys_key_array_35[] = {0x72,0x61,0x77,0x70,0x74,0x72,};
-u8 odin_main_keys_key_array_40[] = {0x71,0x75,0x61,0x74,0x65,0x72,0x6e,0x69,0x6f,0x6e,0x32,0x35,0x36,};
-u8 odin_main_keys_key_array_43[] = {0x6f,0x70,0x61,0x71,0x75,0x65,};
-u8 odin_main_keys_key_array_45[] = {0x61,0x6c,0x69,0x67,0x6e,0x61,0x73,};
-u8 odin_main_keys_key_array_46[] = {0x69,0x36,0x34,0x6c,0x65,};
-u8 odin_main_keys_key_array_49[] = {0x75,0x31,0x36,0x6c,0x65,};
-u8 odin_main_keys_key_array_50[] = {0x75,0x31,0x32,0x38,0x62,0x65,};
-u8 odin_main_keys_key_array_51[] = {0x73,0x74,0x72,0x75,0x63,0x74,};
-u8 odin_main_keys_key_array_52[] = {0x66,0x61,0x6c,0x73,0x65,};
-u8 odin_main_keys_key_array_53[] = {0x69,0x6d,0x70,0x6f,0x72,0x74,};
-u8 odin_main_keys_key_array_56[] = {0x74,0x79,0x70,0x65,0x64,0x65,0x66,};
-u8 odin_main_keys_key_array_57[] = {0x75,0x31,0x32,0x38,};
-u8 odin_main_keys_key_array_60[] = {0x75,0x69,0x6e,0x74,};
-u8 odin_main_keys_key_array_64[] = {0x63,0x6f,0x6d,0x70,0x6c,0x65,0x78,0x33,0x32,};
-u8 odin_main_keys_key_array_69[] = {0x64,0x6f,0x75,0x62,0x6c,0x65,};
-u8 odin_main_keys_key_array_70[] = {0x63,0x6c,0x61,0x73,0x73,};
-u8 odin_main_keys_key_array_71[] = {0x69,0x6e,0x6c,0x69,0x6e,0x65,};
-u8 odin_main_keys_key_array_72[] = {0x6f,0x72,0x5f,0x72,0x65,0x74,0x75,0x72,0x6e,};
-u8 odin_main_keys_key_array_74[] = {0x62,0x6f,0x6f,0x6c,};
-u8 odin_main_keys_key_array_76[] = {0x73,0x68,0x6f,0x72,0x74,};
-u8 odin_main_keys_key_array_77[] = {0x66,0x36,0x34,0x62,0x65,};
-u8 odin_main_keys_key_array_80[] = {0x69,0x31,0x32,0x38,};
-u8 odin_main_keys_key_array_82[] = {0x73,0x69,0x67,0x6e,0x65,0x64,};
-u8 odin_main_keys_key_array_90[] = {0x65,0x78,0x70,0x6c,0x69,0x63,0x69,0x74,};
-u8 odin_main_keys_key_array_93[] = {0x74,0x65,0x6d,0x70,0x6c,0x61,0x74,0x65,};
-u8 odin_main_keys_key_array_94[] = {0x64,0x79,0x6e,0x61,0x6d,0x69,0x63,0x5f,0x63,0x61,0x73,0x74,};
-u8 odin_main_keys_key_array_98[] = {0x72,0x65,0x69,0x6e,0x74,0x65,0x72,0x70,0x72,0x65,0x74,0x5f,0x63,0x61,0x73,0x74,};
-u8 odin_main_keys_key_array_99[] = {0x6f,0x72,0x5f,0x65,0x6c,0x73,0x65,};
-u8 odin_main_keys_key_array_101[] = {0x69,0x36,0x34,0x62,0x65,};
-u8 odin_main_keys_key_array_102[] = {0x63,0x6f,0x6e,0x73,0x74,};
-u8 odin_main_keys_key_array_103[] = {0x63,0x73,0x74,0x72,0x69,0x6e,0x67,};
-u8 odin_main_keys_key_array_108[] = {0x63,0x6f,0x6d,0x70,0x6c,0x65,0x78,0x31,0x32,0x38,};
-u8 odin_main_keys_key_array_112[] = {0x73,0x69,0x7a,0x65,0x5f,0x6f,0x66,};
-u8 odin_main_keys_key_array_115[] = {0x61,0x73,0x6d,};
-u8 odin_main_keys_key_array_117[] = {0x62,0x72,0x65,0x61,0x6b,};
-u8 odin_main_keys_key_array_118[] = {0x75,0x36,0x34,0x62,0x65,};
-u8 odin_main_keys_key_array_119[] = {0x66,0x33,0x32,0x6c,0x65,};
-u8 odin_main_keys_key_array_126[] = {0x74,0x79,0x70,0x65,0x69,0x64,};
-u8 odin_main_keys_key_array_131[] = {0x65,0x6c,0x73,0x65,};
-u8 odin_main_keys_key_array_133[] = {0x64,0x65,0x6c,0x65,0x74,0x65,};
-u8 odin_main_keys_key_array_134[] = {0x66,0x36,0x34,0x6c,0x65,};
-u8 odin_main_keys_key_array_135[] = {0x64,0x69,0x73,0x74,0x69,0x6e,0x63,0x74,};
-u8 odin_main_keys_key_array_136[] = {0x71,0x75,0x61,0x74,0x65,0x72,0x6e,0x69,0x6f,0x6e,0x36,0x34,};
-u8 odin_main_keys_key_array_137[] = {0x75,0x36,0x34,0x6c,0x65,};
-u8 odin_main_keys_key_array_139[] = {0x65,0x6e,0x75,0x6d,};
-u8 odin_main_keys_key_array_140[] = {0x75,0x33,0x32,};
-u8 odin_main_keys_key_array_141[] = {0x64,0x65,0x63,0x6c,0x74,0x79,0x70,0x65,};
-u8 odin_main_keys_key_array_142[] = {0x6e,0x75,0x6c,0x6c,0x70,0x74,0x72,};
-u8 odin_main_keys_key_array_145[] = {0x75,0x33,0x32,0x62,0x65,};
-u8 odin_main_keys_key_array_146[] = {0x6e,0x69,0x6c,};
-u8 odin_main_keys_key_array_149[] = {0x76,0x6f,0x6c,0x61,0x74,0x69,0x6c,0x65,};
-u8 odin_main_keys_key_array_155[] = {0x6c,0x6f,0x6e,0x67,};
-u8 odin_main_keys_key_array_156[] = {0x6e,0x6f,0x74,0x5f,0x69,0x6e,};
-u8 odin_main_keys_key_array_157[] = {0x75,0x31,0x32,0x38,0x6c,0x65,};
-u8 odin_main_keys_key_array_158[] = {0x76,0x69,0x72,0x74,0x75,0x61,0x6c,};
-u8 odin_main_keys_key_array_165[] = {0x62,0x79,0x74,0x65,};
-u8 odin_main_keys_key_array_170[] = {0x72,0x65,0x74,0x75,0x72,0x6e,};
-u8 odin_main_keys_key_array_172[] = {0x63,0x68,0x61,0x72,};
-u8 odin_main_keys_key_array_173[] = {0x66,0x31,0x36,0x62,0x65,};
-u8 odin_main_keys_key_array_174[] = {0x63,0x61,0x73,0x74,};
-u8 odin_main_keys_key_array_175[] = {0x64,0x6f,};
-u8 odin_main_keys_key_array_177[] = {0x66,0x31,0x36,0x6c,0x65,};
-u8 odin_main_keys_key_array_178[] = {0x63,0x61,0x74,0x63,0x68,};
-u8 odin_main_keys_key_array_181[] = {0x74,0x72,0x61,0x6e,0x73,0x6d,0x75,0x74,0x65,};
-u8 odin_main_keys_key_array_182[] = {0x70,0x72,0x6f,0x74,0x65,0x63,0x74,0x65,0x64,};
-u8 odin_main_keys_key_array_183[] = {0x69,0x38,};
-u8 odin_main_keys_key_array_184[] = {0x70,0x61,0x63,0x6b,0x61,0x67,0x65,};
-u8 odin_main_keys_key_array_186[] = {0x61,0x75,0x74,0x6f,0x5f,0x63,0x61,0x73,0x74,};
-u8 odin_main_keys_key_array_188[] = {0x73,0x74,0x61,0x74,0x69,0x63,0x5f,0x61,0x73,0x73,0x65,0x72,0x74,};
-u8 odin_main_keys_key_array_190[] = {0x76,0x6f,0x69,0x64,};
-u8 odin_main_keys_key_array_194[] = {0x75,0x38,};
-u8 odin_main_keys_key_array_197[] = {0x64,0x79,0x6e,0x61,0x6d,0x69,0x63,};
-u8 odin_main_keys_key_array_200[] = {0x66,0x33,0x32,};
-u8 odin_main_keys_key_array_201[] = {0x70,0x72,0x69,0x76,0x61,0x74,0x65,};
-u8 odin_main_keys_key_array_204[] = {0x62,0x36,0x34,};
-u8 odin_main_keys_key_array_205[] = {0x69,0x36,0x34,};
-u8 odin_main_keys_key_array_206[] = {0x69,0x31,0x32,0x38,0x62,0x65,};
-u8 odin_main_keys_key_array_208[] = {0x61,0x6c,0x69,0x67,0x6e,0x6f,0x66,};
-u8 odin_main_keys_key_array_209[] = {0x75,0x31,0x36,0x62,0x65,};
-u8 odin_main_keys_key_array_212[] = {0x61,0x6c,0x69,0x67,0x6e,0x5f,0x6f,0x66,};
-u8 odin_main_keys_key_array_213[] = {0x61,0x6e,0x79,};
-u8 odin_main_keys_key_array_216[] = {0x66,0x72,0x69,0x65,0x6e,0x64,};
-u8 odin_main_keys_key_array_217[] = {0x73,0x74,0x61,0x74,0x69,0x63,};
-u8 odin_main_keys_key_array_218[] = {0x75,0x6e,0x73,0x69,0x67,0x6e,0x65,0x64,};
-u8 odin_main_keys_key_array_221[] = {0x77,0x68,0x69,0x6c,0x65,};
-u8 odin_main_keys_key_array_222[] = {0x69,0x31,0x36,0x6c,0x65,};
-u8 odin_main_keys_key_array_224[] = {0x64,0x65,0x66,0x61,0x75,0x6c,0x74,};
-u8 odin_main_keys_key_array_225[] = {0x62,0x69,0x74,0x5f,0x66,0x69,0x65,0x6c,0x64,};
-u8 odin_main_keys_key_array_227[] = {0x75,0x73,0x69,0x6e,0x67,};
-u8 odin_main_keys_key_array_228[] = {0x74,0x72,0x75,0x65,};
-u8 odin_main_keys_key_array_229[] = {0x63,0x6f,0x6e,0x74,0x65,0x78,0x74,};
-u8 odin_main_keys_key_array_230[] = {0x74,0x72,0x79,};
-u8 odin_main_keys_key_array_232[] = {0x71,0x75,0x61,0x74,0x65,0x72,0x6e,0x69,0x6f,0x6e,0x31,0x32,0x38,};
-u8 odin_main_keys_key_array_236[] = {0x72,0x65,0x67,0x69,0x73,0x74,0x65,0x72,};
-u8 odin_main_keys_key_array_237[] = {0x74,0x68,0x69,0x73,};
-u8 odin_main_keys_key_array_238[] = {0x65,0x78,0x74,0x65,0x72,0x6e,};
-u8 odin_main_keys_key_array_239[] = {0x6e,0x61,0x6d,0x65,0x73,0x70,0x61,0x63,0x65,};
-u8 odin_main_keys_key_array_244[] = {0x6e,0x6f,0x65,0x78,0x63,0x65,0x70,0x74,};
-u8 odin_main_keys_key_array_245[] = {0x69,0x33,0x32,0x62,0x65,};
-u8 odin_main_keys_key_array_248[] = {0x75,0x31,0x36,};
-u8 odin_main_keys_key_array_249[] = {0x70,0x75,0x62,0x6c,0x69,0x63,};
-u8 odin_main_keys_key_array_250[] = {0x75,0x33,0x32,0x6c,0x65,};
-u8 odin_main_keys_key_array_251[] = {0x66,0x6c,0x6f,0x61,0x74,};
-u8 odin_main_keys_key_array_252[] = {0x63,0x6f,0x6e,0x74,0x69,0x6e,0x75,0x65,};
-u8 odin_main_keys_key_array_255[] = {0x63,0x61,0x73,0x65,};
-u8 odin_main_keys_key_array_256[] = {0x62,0x31,0x36,};
-u8 odin_main_keys_key_array_264[] = {0x6f,0x70,0x65,0x72,0x61,0x74,0x6f,0x72,};
-u8 odin_main_keys_key_array_265[] = {0x63,0x6f,0x6d,0x70,0x6c,0x65,0x78,0x36,0x34,};
-u8 odin_main_keys_key_array_266[] = {0x62,0x69,0x74,0x5f,0x73,0x65,0x74,};
-u8 odin_main_keys_key_array_269[] = {0x69,0x31,0x36,0x62,0x65,};
-u8 odin_main_keys_key_array_270[] = {0x73,0x77,0x69,0x74,0x63,0x68,};
-u8 odin_main_keys_key_array_271[] = {0x67,0x6f,0x74,0x6f,};
-u8 odin_main_keys_key_array_275[] = {0x73,0x74,0x72,0x69,0x6e,0x67,};
-u8 odin_main_keys_key_array_276[] = {0x64,0x65,0x66,0x65,0x72,};
-u8 odin_main_keys_key_array_278[] = {0x66,0x61,0x6c,0x6c,0x74,0x68,0x72,0x6f,0x75,0x67,0x68,};
-u8 odin_main_keys_key_array_280[] = {0x66,0x6f,0x72,};
-u8 odin_main_keys_key_array_281[] = {0x77,0x68,0x65,0x6e,};
-u8 odin_main_keys_key_array_282[] = {0x6f,0x66,0x66,0x73,0x65,0x74,0x5f,0x6f,0x66,};
-u8 odin_main_keys_key_array_284[] = {0x65,0x78,0x70,0x6f,0x72,0x74,};
-u8 odin_main_keys_key_array_286[] = {0x63,0x6f,0x6e,0x73,0x74,0x5f,0x63,0x61,0x73,0x74,};
-u8 odin_main_keys_key_array_288[] = {0x75,0x36,0x34,};
-u8 odin_main_keys_key_array_289[] = {0x69,0x33,0x32,0x6c,0x65,};
-String_Const_u8 odin_main_keys_key_array[292] = {
-{odin_main_keys_key_array_0, 3},
-{odin_main_keys_key_array_1, 5},
-{odin_main_keys_key_array_2, 3},
-{odin_main_keys_key_array_3, 7},
-{odin_main_keys_key_array_4, 2},
+u8 odin_main_keys_key_array_10[] = {0x75,0x6e,0x73,0x69,0x67,0x6e,0x65,0x64,};
+u8 odin_main_keys_key_array_15[] = {0x62,0x69,0x74,0x5f,0x73,0x65,0x74,};
+u8 odin_main_keys_key_array_16[] = {0x65,0x6e,0x75,0x6d,};
+u8 odin_main_keys_key_array_17[] = {0x75,0x31,0x32,0x38,0x6c,0x65,};
+u8 odin_main_keys_key_array_19[] = {0x72,0x65,0x67,0x69,0x73,0x74,0x65,0x72,};
+u8 odin_main_keys_key_array_20[] = {0x70,0x72,0x6f,0x63,};
+u8 odin_main_keys_key_array_21[] = {0x62,0x69,0x74,0x5f,0x66,0x69,0x65,0x6c,0x64,};
+u8 odin_main_keys_key_array_24[] = {0x75,0x33,0x32,0x6c,0x65,};
+u8 odin_main_keys_key_array_25[] = {0x66,0x36,0x34,0x6c,0x65,};
+u8 odin_main_keys_key_array_32[] = {0x64,0x65,0x66,0x61,0x75,0x6c,0x74,};
+u8 odin_main_keys_key_array_38[] = {0x66,0x31,0x36,0x62,0x65,};
+u8 odin_main_keys_key_array_39[] = {0x66,0x72,0x69,0x65,0x6e,0x64,};
+u8 odin_main_keys_key_array_41[] = {0x70,0x75,0x62,0x6c,0x69,0x63,};
+u8 odin_main_keys_key_array_43[] = {0x61,0x73,0x6d,};
+u8 odin_main_keys_key_array_53[] = {0x77,0x68,0x69,0x6c,0x65,};
+u8 odin_main_keys_key_array_56[] = {0x75,0x36,0x34,0x62,0x65,};
+u8 odin_main_keys_key_array_57[] = {0x63,0x6f,0x6e,0x74,0x65,0x78,0x74,};
+u8 odin_main_keys_key_array_58[] = {0x6f,0x66,0x66,0x73,0x65,0x74,0x5f,0x6f,0x66,};
+u8 odin_main_keys_key_array_61[] = {0x75,0x69,0x6e,0x74,};
+u8 odin_main_keys_key_array_62[] = {0x63,0x6f,0x6d,0x70,0x6c,0x65,0x78,0x33,0x32,};
+u8 odin_main_keys_key_array_65[] = {0x6f,0x70,0x65,0x72,0x61,0x74,0x6f,0x72,};
+u8 odin_main_keys_key_array_66[] = {0x62,0x72,0x65,0x61,0x6b,};
+u8 odin_main_keys_key_array_67[] = {0x65,0x78,0x70,0x6f,0x72,0x74,};
+u8 odin_main_keys_key_array_68[] = {0x72,0x65,0x74,0x75,0x72,0x6e,};
+u8 odin_main_keys_key_array_71[] = {0x69,0x31,0x32,0x38,0x62,0x65,};
+u8 odin_main_keys_key_array_72[] = {0x73,0x74,0x61,0x74,0x69,0x63,0x5f,0x63,0x61,0x73,0x74,};
+u8 odin_main_keys_key_array_74[] = {0x65,0x78,0x70,0x6c,0x69,0x63,0x69,0x74,};
+u8 odin_main_keys_key_array_76[] = {0x66,0x33,0x32,0x62,0x65,};
+u8 odin_main_keys_key_array_78[] = {0x75,0x36,0x34,};
+u8 odin_main_keys_key_array_79[] = {0x62,0x38,};
+u8 odin_main_keys_key_array_80[] = {0x6c,0x6f,0x6e,0x67,};
+u8 odin_main_keys_key_array_84[] = {0x77,0x68,0x65,0x6e,};
+u8 odin_main_keys_key_array_85[] = {0x71,0x75,0x61,0x74,0x65,0x72,0x6e,0x69,0x6f,0x6e,0x31,0x32,0x38,};
+u8 odin_main_keys_key_array_86[] = {0x71,0x75,0x61,0x74,0x65,0x72,0x6e,0x69,0x6f,0x6e,0x32,0x35,0x36,};
+u8 odin_main_keys_key_array_87[] = {0x75,0x38,};
+u8 odin_main_keys_key_array_93[] = {0x62,0x36,0x34,};
+u8 odin_main_keys_key_array_94[] = {0x63,0x6f,0x6e,0x73,0x74,};
+u8 odin_main_keys_key_array_100[] = {0x70,0x61,0x63,0x6b,0x61,0x67,0x65,};
+u8 odin_main_keys_key_array_102[] = {0x76,0x6f,0x69,0x64,};
+u8 odin_main_keys_key_array_104[] = {0x66,0x61,0x6c,0x6c,0x74,0x68,0x72,0x6f,0x75,0x67,0x68,};
+u8 odin_main_keys_key_array_106[] = {0x74,0x68,0x72,0x65,0x61,0x64,0x5f,0x6c,0x6f,0x63,0x61,0x6c,};
+u8 odin_main_keys_key_array_107[] = {0x69,0x33,0x32,0x62,0x65,};
+u8 odin_main_keys_key_array_108[] = {0x66,0x6c,0x6f,0x61,0x74,};
+u8 odin_main_keys_key_array_109[] = {0x69,0x36,0x34,0x6c,0x65,};
+u8 odin_main_keys_key_array_111[] = {0x69,0x36,0x34,};
+u8 odin_main_keys_key_array_114[] = {0x72,0x61,0x77,0x70,0x74,0x72,};
+u8 odin_main_keys_key_array_115[] = {0x63,0x61,0x73,0x74,};
+u8 odin_main_keys_key_array_117[] = {0x76,0x6f,0x6c,0x61,0x74,0x69,0x6c,0x65,};
+u8 odin_main_keys_key_array_120[] = {0x73,0x74,0x61,0x74,0x69,0x63,0x5f,0x61,0x73,0x73,0x65,0x72,0x74,};
+u8 odin_main_keys_key_array_126[] = {0x6e,0x6f,0x65,0x78,0x63,0x65,0x70,0x74,};
+u8 odin_main_keys_key_array_127[] = {0x69,0x66,};
+u8 odin_main_keys_key_array_128[] = {0x63,0x61,0x73,0x65,};
+u8 odin_main_keys_key_array_129[] = {0x64,0x79,0x6e,0x61,0x6d,0x69,0x63,0x5f,0x63,0x61,0x73,0x74,};
+u8 odin_main_keys_key_array_130[] = {0x66,0x6f,0x72,0x65,0x69,0x67,0x6e,};
+u8 odin_main_keys_key_array_133[] = {0x63,0x6f,0x6e,0x74,0x69,0x6e,0x75,0x65,};
+u8 odin_main_keys_key_array_134[] = {0x75,0x31,0x36,};
+u8 odin_main_keys_key_array_135[] = {0x6f,0x72,0x5f,0x72,0x65,0x74,0x75,0x72,0x6e,};
+u8 odin_main_keys_key_array_138[] = {0x73,0x69,0x67,0x6e,0x65,0x64,};
+u8 odin_main_keys_key_array_139[] = {0x66,0x31,0x36,};
+u8 odin_main_keys_key_array_140[] = {0x6e,0x75,0x6c,0x6c,0x70,0x74,0x72,};
+u8 odin_main_keys_key_array_141[] = {0x73,0x69,0x7a,0x65,0x5f,0x6f,0x66,};
+u8 odin_main_keys_key_array_144[] = {0x67,0x6f,0x74,0x6f,};
+u8 odin_main_keys_key_array_146[] = {0x65,0x6c,0x73,0x65,};
+u8 odin_main_keys_key_array_148[] = {0x66,0x61,0x6c,0x73,0x65,};
+u8 odin_main_keys_key_array_152[] = {0x63,0x6f,0x6e,0x73,0x74,0x5f,0x63,0x61,0x73,0x74,};
+u8 odin_main_keys_key_array_154[] = {0x63,0x6f,0x6d,0x70,0x6c,0x65,0x78,0x31,0x32,0x38,};
+u8 odin_main_keys_key_array_156[] = {0x75,0x31,0x32,0x38,0x62,0x65,};
+u8 odin_main_keys_key_array_157[] = {0x6f,0x72,0x5f,0x65,0x6c,0x73,0x65,};
+u8 odin_main_keys_key_array_158[] = {0x66,0x36,0x34,};
+u8 odin_main_keys_key_array_159[] = {0x61,0x6e,0x79,};
+u8 odin_main_keys_key_array_161[] = {0x69,0x31,0x36,0x6c,0x65,};
+u8 odin_main_keys_key_array_162[] = {0x74,0x79,0x70,0x65,0x6e,0x61,0x6d,0x65,};
+u8 odin_main_keys_key_array_163[] = {0x66,0x36,0x34,0x62,0x65,};
+u8 odin_main_keys_key_array_164[] = {0x72,0x65,0x69,0x6e,0x74,0x65,0x72,0x70,0x72,0x65,0x74,0x5f,0x63,0x61,0x73,0x74,};
+u8 odin_main_keys_key_array_167[] = {0x73,0x74,0x72,0x75,0x63,0x74,};
+u8 odin_main_keys_key_array_168[] = {0x75,0x33,0x32,0x62,0x65,};
+u8 odin_main_keys_key_array_169[] = {0x63,0x68,0x61,0x72,};
+u8 odin_main_keys_key_array_170[] = {0x63,0x6f,0x6d,0x70,0x6c,0x65,0x78,0x36,0x34,};
+u8 odin_main_keys_key_array_175[] = {0x62,0x33,0x32,};
+u8 odin_main_keys_key_array_179[] = {0x69,0x31,0x32,0x38,};
+u8 odin_main_keys_key_array_180[] = {0x74,0x79,0x70,0x65,0x64,0x65,0x66,};
+u8 odin_main_keys_key_array_181[] = {0x66,0x6f,0x72,};
+u8 odin_main_keys_key_array_183[] = {0x69,0x6e,};
+u8 odin_main_keys_key_array_188[] = {0x6d,0x61,0x70,};
+u8 odin_main_keys_key_array_190[] = {0x65,0x78,0x74,0x65,0x72,0x6e,};
+u8 odin_main_keys_key_array_191[] = {0x69,0x31,0x36,0x62,0x65,};
+u8 odin_main_keys_key_array_192[] = {0x75,0x31,0x36,0x62,0x65,};
+u8 odin_main_keys_key_array_193[] = {0x61,0x6c,0x69,0x67,0x6e,0x5f,0x6f,0x66,};
+u8 odin_main_keys_key_array_197[] = {0x62,0x31,0x36,};
+u8 odin_main_keys_key_array_199[] = {0x61,0x6c,0x69,0x67,0x6e,0x6f,0x66,};
+u8 odin_main_keys_key_array_200[] = {0x74,0x79,0x70,0x65,0x5f,0x6f,0x66,};
+u8 odin_main_keys_key_array_201[] = {0x75,0x6e,0x69,0x6f,0x6e,};
+u8 odin_main_keys_key_array_202[] = {0x69,0x38,};
+u8 odin_main_keys_key_array_203[] = {0x64,0x65,0x66,0x65,0x72,};
+u8 odin_main_keys_key_array_206[] = {0x69,0x33,0x32,};
+u8 odin_main_keys_key_array_207[] = {0x70,0x72,0x69,0x76,0x61,0x74,0x65,};
+u8 odin_main_keys_key_array_208[] = {0x75,0x31,0x36,0x6c,0x65,};
+u8 odin_main_keys_key_array_209[] = {0x62,0x79,0x74,0x65,};
+u8 odin_main_keys_key_array_214[] = {0x61,0x75,0x74,0x6f,0x5f,0x63,0x61,0x73,0x74,};
+u8 odin_main_keys_key_array_215[] = {0x69,0x6d,0x70,0x6f,0x72,0x74,};
+u8 odin_main_keys_key_array_216[] = {0x69,0x36,0x34,0x62,0x65,};
+u8 odin_main_keys_key_array_217[] = {0x6e,0x61,0x6d,0x65,0x73,0x70,0x61,0x63,0x65,};
+u8 odin_main_keys_key_array_218[] = {0x69,0x31,0x32,0x38,0x6c,0x65,};
+u8 odin_main_keys_key_array_224[] = {0x73,0x74,0x61,0x74,0x69,0x63,};
+u8 odin_main_keys_key_array_225[] = {0x75,0x73,0x69,0x6e,0x67,};
+u8 odin_main_keys_key_array_228[] = {0x74,0x65,0x6d,0x70,0x6c,0x61,0x74,0x65,};
+u8 odin_main_keys_key_array_229[] = {0x6e,0x6f,0x74,0x5f,0x69,0x6e,};
+u8 odin_main_keys_key_array_232[] = {0x74,0x72,0x79,};
+u8 odin_main_keys_key_array_233[] = {0x74,0x72,0x75,0x65,};
+u8 odin_main_keys_key_array_234[] = {0x64,0x69,0x73,0x74,0x69,0x6e,0x63,0x74,};
+u8 odin_main_keys_key_array_235[] = {0x75,0x36,0x34,0x6c,0x65,};
+u8 odin_main_keys_key_array_238[] = {0x63,0x6c,0x61,0x73,0x73,};
+u8 odin_main_keys_key_array_243[] = {0x63,0x73,0x74,0x72,0x69,0x6e,0x67,};
+u8 odin_main_keys_key_array_246[] = {0x64,0x65,0x6c,0x65,0x74,0x65,};
+u8 odin_main_keys_key_array_247[] = {0x6e,0x69,0x6c,};
+u8 odin_main_keys_key_array_248[] = {0x6f,0x70,0x61,0x71,0x75,0x65,};
+u8 odin_main_keys_key_array_250[] = {0x69,0x33,0x32,0x6c,0x65,};
+u8 odin_main_keys_key_array_251[] = {0x6e,0x6f,0x5f,0x69,0x6e,0x6c,0x69,0x6e,0x65,};
+u8 odin_main_keys_key_array_252[] = {0x66,0x33,0x32,0x6c,0x65,};
+u8 odin_main_keys_key_array_254[] = {0x73,0x68,0x6f,0x72,0x74,};
+u8 odin_main_keys_key_array_255[] = {0x69,0x6e,0x6c,0x69,0x6e,0x65,};
+u8 odin_main_keys_key_array_256[] = {0x69,0x31,0x36,};
+u8 odin_main_keys_key_array_258[] = {0x64,0x65,0x63,0x6c,0x74,0x79,0x70,0x65,};
+u8 odin_main_keys_key_array_261[] = {0x64,0x6f,0x75,0x62,0x6c,0x65,};
+u8 odin_main_keys_key_array_262[] = {0x73,0x77,0x69,0x74,0x63,0x68,};
+u8 odin_main_keys_key_array_263[] = {0x70,0x72,0x6f,0x74,0x65,0x63,0x74,0x65,0x64,};
+u8 odin_main_keys_key_array_264[] = {0x64,0x79,0x6e,0x61,0x6d,0x69,0x63,};
+u8 odin_main_keys_key_array_265[] = {0x74,0x79,0x70,0x65,0x69,0x64,};
+u8 odin_main_keys_key_array_268[] = {0x61,0x6c,0x69,0x67,0x6e,0x61,0x73,};
+u8 odin_main_keys_key_array_270[] = {0x74,0x72,0x61,0x6e,0x73,0x6d,0x75,0x74,0x65,};
+u8 odin_main_keys_key_array_272[] = {0x75,0x33,0x32,};
+u8 odin_main_keys_key_array_276[] = {0x62,0x6f,0x6f,0x6c,};
+u8 odin_main_keys_key_array_277[] = {0x66,0x33,0x32,};
+u8 odin_main_keys_key_array_278[] = {0x69,0x6e,0x74,};
+u8 odin_main_keys_key_array_279[] = {0x75,0x31,0x32,0x38,};
+u8 odin_main_keys_key_array_282[] = {0x64,0x6f,};
+u8 odin_main_keys_key_array_284[] = {0x66,0x31,0x36,0x6c,0x65,};
+u8 odin_main_keys_key_array_286[] = {0x63,0x61,0x74,0x63,0x68,};
+String_Const_u8 odin_main_keys_key_array[287] = {
+{odin_main_keys_key_array_0, 7},
 {0, 0},
-{odin_main_keys_key_array_6, 3},
+{odin_main_keys_key_array_2, 12},
 {0, 0},
-{odin_main_keys_key_array_8, 2},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_6, 4},
+{odin_main_keys_key_array_7, 6},
+{0, 0},
 {odin_main_keys_key_array_9, 3},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_12, 3},
-{odin_main_keys_key_array_13, 5},
-{odin_main_keys_key_array_14, 12},
-{0, 0},
-{odin_main_keys_key_array_16, 2},
-{odin_main_keys_key_array_17, 3},
-{odin_main_keys_key_array_18, 3},
-{odin_main_keys_key_array_19, 6},
-{0, 0},
-{odin_main_keys_key_array_21, 4},
-{0, 0},
-{odin_main_keys_key_array_23, 8},
-{odin_main_keys_key_array_24, 3},
-{odin_main_keys_key_array_25, 7},
+{odin_main_keys_key_array_10, 8},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
+{odin_main_keys_key_array_15, 7},
+{odin_main_keys_key_array_16, 4},
+{odin_main_keys_key_array_17, 6},
+{0, 0},
+{odin_main_keys_key_array_19, 8},
+{odin_main_keys_key_array_20, 4},
+{odin_main_keys_key_array_21, 9},
 {0, 0},
 {0, 0},
-{0, 0},
-{odin_main_keys_key_array_33, 9},
-{odin_main_keys_key_array_34, 11},
-{odin_main_keys_key_array_35, 6},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_40, 13},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_43, 6},
-{0, 0},
-{odin_main_keys_key_array_45, 7},
-{odin_main_keys_key_array_46, 5},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_49, 5},
-{odin_main_keys_key_array_50, 6},
-{odin_main_keys_key_array_51, 6},
-{odin_main_keys_key_array_52, 5},
-{odin_main_keys_key_array_53, 6},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_56, 7},
-{odin_main_keys_key_array_57, 4},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_60, 4},
-{0, 0},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_64, 9},
+{odin_main_keys_key_array_24, 5},
+{odin_main_keys_key_array_25, 5},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
-{odin_main_keys_key_array_69, 6},
-{odin_main_keys_key_array_70, 5},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_32, 7},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_38, 5},
+{odin_main_keys_key_array_39, 6},
+{0, 0},
+{odin_main_keys_key_array_41, 6},
+{0, 0},
+{odin_main_keys_key_array_43, 3},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_53, 5},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_56, 5},
+{odin_main_keys_key_array_57, 7},
+{odin_main_keys_key_array_58, 9},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_61, 4},
+{odin_main_keys_key_array_62, 9},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_65, 8},
+{odin_main_keys_key_array_66, 5},
+{odin_main_keys_key_array_67, 6},
+{odin_main_keys_key_array_68, 6},
+{0, 0},
+{0, 0},
 {odin_main_keys_key_array_71, 6},
-{odin_main_keys_key_array_72, 9},
+{odin_main_keys_key_array_72, 11},
 {0, 0},
-{odin_main_keys_key_array_74, 4},
+{odin_main_keys_key_array_74, 8},
 {0, 0},
 {odin_main_keys_key_array_76, 5},
-{odin_main_keys_key_array_77, 5},
 {0, 0},
-{0, 0},
+{odin_main_keys_key_array_78, 3},
+{odin_main_keys_key_array_79, 2},
 {odin_main_keys_key_array_80, 4},
 {0, 0},
-{odin_main_keys_key_array_82, 6},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_84, 4},
+{odin_main_keys_key_array_85, 13},
+{odin_main_keys_key_array_86, 13},
+{odin_main_keys_key_array_87, 2},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_90, 8},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_93, 8},
-{odin_main_keys_key_array_94, 12},
-{0, 0},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_98, 16},
-{odin_main_keys_key_array_99, 7},
-{0, 0},
-{odin_main_keys_key_array_101, 5},
-{odin_main_keys_key_array_102, 5},
-{odin_main_keys_key_array_103, 7},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_108, 10},
-{0, 0},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_112, 7},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_115, 3},
-{0, 0},
-{odin_main_keys_key_array_117, 5},
-{odin_main_keys_key_array_118, 5},
-{odin_main_keys_key_array_119, 5},
+{odin_main_keys_key_array_93, 3},
+{odin_main_keys_key_array_94, 5},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
+{odin_main_keys_key_array_100, 7},
 {0, 0},
-{odin_main_keys_key_array_126, 6},
+{odin_main_keys_key_array_102, 4},
 {0, 0},
+{odin_main_keys_key_array_104, 11},
 {0, 0},
+{odin_main_keys_key_array_106, 12},
+{odin_main_keys_key_array_107, 5},
+{odin_main_keys_key_array_108, 5},
+{odin_main_keys_key_array_109, 5},
 {0, 0},
-{0, 0},
-{odin_main_keys_key_array_131, 4},
-{0, 0},
-{odin_main_keys_key_array_133, 6},
-{odin_main_keys_key_array_134, 5},
-{odin_main_keys_key_array_135, 8},
-{odin_main_keys_key_array_136, 12},
-{odin_main_keys_key_array_137, 5},
-{0, 0},
-{odin_main_keys_key_array_139, 4},
-{odin_main_keys_key_array_140, 3},
-{odin_main_keys_key_array_141, 8},
-{odin_main_keys_key_array_142, 7},
+{odin_main_keys_key_array_111, 3},
 {0, 0},
 {0, 0},
-{odin_main_keys_key_array_145, 5},
-{odin_main_keys_key_array_146, 3},
+{odin_main_keys_key_array_114, 6},
+{odin_main_keys_key_array_115, 4},
+{0, 0},
+{odin_main_keys_key_array_117, 8},
 {0, 0},
 {0, 0},
-{odin_main_keys_key_array_149, 8},
+{odin_main_keys_key_array_120, 13},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
-{odin_main_keys_key_array_155, 4},
+{odin_main_keys_key_array_126, 8},
+{odin_main_keys_key_array_127, 2},
+{odin_main_keys_key_array_128, 4},
+{odin_main_keys_key_array_129, 12},
+{odin_main_keys_key_array_130, 7},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_133, 8},
+{odin_main_keys_key_array_134, 3},
+{odin_main_keys_key_array_135, 9},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_138, 6},
+{odin_main_keys_key_array_139, 3},
+{odin_main_keys_key_array_140, 7},
+{odin_main_keys_key_array_141, 7},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_144, 4},
+{0, 0},
+{odin_main_keys_key_array_146, 4},
+{0, 0},
+{odin_main_keys_key_array_148, 5},
+{0, 0},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_152, 10},
+{0, 0},
+{odin_main_keys_key_array_154, 10},
+{0, 0},
 {odin_main_keys_key_array_156, 6},
-{odin_main_keys_key_array_157, 6},
-{odin_main_keys_key_array_158, 7},
+{odin_main_keys_key_array_157, 7},
+{odin_main_keys_key_array_158, 3},
+{odin_main_keys_key_array_159, 3},
+{0, 0},
+{odin_main_keys_key_array_161, 5},
+{odin_main_keys_key_array_162, 8},
+{odin_main_keys_key_array_163, 5},
+{odin_main_keys_key_array_164, 16},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_167, 6},
+{odin_main_keys_key_array_168, 5},
+{odin_main_keys_key_array_169, 4},
+{odin_main_keys_key_array_170, 9},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_165, 4},
-{0, 0},
+{odin_main_keys_key_array_175, 3},
 {0, 0},
 {0, 0},
 {0, 0},
-{odin_main_keys_key_array_170, 6},
+{odin_main_keys_key_array_179, 4},
+{odin_main_keys_key_array_180, 7},
+{odin_main_keys_key_array_181, 3},
 {0, 0},
-{odin_main_keys_key_array_172, 4},
-{odin_main_keys_key_array_173, 5},
-{odin_main_keys_key_array_174, 4},
-{odin_main_keys_key_array_175, 2},
-{0, 0},
-{odin_main_keys_key_array_177, 5},
-{odin_main_keys_key_array_178, 5},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_181, 9},
-{odin_main_keys_key_array_182, 9},
 {odin_main_keys_key_array_183, 2},
-{odin_main_keys_key_array_184, 7},
-{0, 0},
-{odin_main_keys_key_array_186, 9},
-{0, 0},
-{odin_main_keys_key_array_188, 13},
-{0, 0},
-{odin_main_keys_key_array_190, 4},
-{0, 0},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_194, 2},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_197, 7},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_200, 3},
-{odin_main_keys_key_array_201, 7},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_204, 3},
-{odin_main_keys_key_array_205, 3},
-{odin_main_keys_key_array_206, 6},
-{0, 0},
-{odin_main_keys_key_array_208, 7},
-{odin_main_keys_key_array_209, 5},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_212, 8},
-{odin_main_keys_key_array_213, 3},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_216, 6},
-{odin_main_keys_key_array_217, 6},
-{odin_main_keys_key_array_218, 8},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_221, 5},
-{odin_main_keys_key_array_222, 5},
-{0, 0},
-{odin_main_keys_key_array_224, 7},
-{odin_main_keys_key_array_225, 9},
-{0, 0},
-{odin_main_keys_key_array_227, 5},
-{odin_main_keys_key_array_228, 4},
-{odin_main_keys_key_array_229, 7},
-{odin_main_keys_key_array_230, 3},
-{0, 0},
-{odin_main_keys_key_array_232, 13},
-{0, 0},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_236, 8},
-{odin_main_keys_key_array_237, 4},
-{odin_main_keys_key_array_238, 6},
-{odin_main_keys_key_array_239, 9},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
-{odin_main_keys_key_array_244, 8},
-{odin_main_keys_key_array_245, 5},
+{odin_main_keys_key_array_188, 3},
+{0, 0},
+{odin_main_keys_key_array_190, 6},
+{odin_main_keys_key_array_191, 5},
+{odin_main_keys_key_array_192, 5},
+{odin_main_keys_key_array_193, 8},
 {0, 0},
 {0, 0},
-{odin_main_keys_key_array_248, 3},
-{odin_main_keys_key_array_249, 6},
+{0, 0},
+{odin_main_keys_key_array_197, 3},
+{0, 0},
+{odin_main_keys_key_array_199, 7},
+{odin_main_keys_key_array_200, 7},
+{odin_main_keys_key_array_201, 5},
+{odin_main_keys_key_array_202, 2},
+{odin_main_keys_key_array_203, 5},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_206, 3},
+{odin_main_keys_key_array_207, 7},
+{odin_main_keys_key_array_208, 5},
+{odin_main_keys_key_array_209, 4},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_214, 9},
+{odin_main_keys_key_array_215, 6},
+{odin_main_keys_key_array_216, 5},
+{odin_main_keys_key_array_217, 9},
+{odin_main_keys_key_array_218, 6},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_224, 6},
+{odin_main_keys_key_array_225, 5},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_228, 8},
+{odin_main_keys_key_array_229, 6},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_232, 3},
+{odin_main_keys_key_array_233, 4},
+{odin_main_keys_key_array_234, 8},
+{odin_main_keys_key_array_235, 5},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_238, 5},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_243, 7},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_246, 6},
+{odin_main_keys_key_array_247, 3},
+{odin_main_keys_key_array_248, 6},
+{0, 0},
 {odin_main_keys_key_array_250, 5},
-{odin_main_keys_key_array_251, 5},
-{odin_main_keys_key_array_252, 8},
+{odin_main_keys_key_array_251, 9},
+{odin_main_keys_key_array_252, 5},
 {0, 0},
-{0, 0},
-{odin_main_keys_key_array_255, 4},
+{odin_main_keys_key_array_254, 5},
+{odin_main_keys_key_array_255, 6},
 {odin_main_keys_key_array_256, 3},
 {0, 0},
+{odin_main_keys_key_array_258, 8},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_261, 6},
+{odin_main_keys_key_array_262, 6},
+{odin_main_keys_key_array_263, 9},
+{odin_main_keys_key_array_264, 7},
+{odin_main_keys_key_array_265, 6},
+{0, 0},
+{0, 0},
+{odin_main_keys_key_array_268, 7},
+{0, 0},
+{odin_main_keys_key_array_270, 9},
+{0, 0},
+{odin_main_keys_key_array_272, 3},
 {0, 0},
 {0, 0},
 {0, 0},
+{odin_main_keys_key_array_276, 4},
+{odin_main_keys_key_array_277, 3},
+{odin_main_keys_key_array_278, 3},
+{odin_main_keys_key_array_279, 4},
 {0, 0},
 {0, 0},
+{odin_main_keys_key_array_282, 2},
 {0, 0},
-{odin_main_keys_key_array_264, 8},
-{odin_main_keys_key_array_265, 9},
-{odin_main_keys_key_array_266, 7},
+{odin_main_keys_key_array_284, 5},
 {0, 0},
-{0, 0},
-{odin_main_keys_key_array_269, 5},
-{odin_main_keys_key_array_270, 6},
-{odin_main_keys_key_array_271, 4},
-{0, 0},
-{0, 0},
-{0, 0},
-{odin_main_keys_key_array_275, 6},
-{odin_main_keys_key_array_276, 5},
-{0, 0},
-{odin_main_keys_key_array_278, 11},
-{0, 0},
-{odin_main_keys_key_array_280, 3},
-{odin_main_keys_key_array_281, 4},
-{odin_main_keys_key_array_282, 9},
-{0, 0},
-{odin_main_keys_key_array_284, 6},
-{0, 0},
-{odin_main_keys_key_array_286, 10},
-{0, 0},
-{odin_main_keys_key_array_288, 3},
-{odin_main_keys_key_array_289, 5},
-{0, 0},
-{0, 0},
+{odin_main_keys_key_array_286, 5},
 };
-Lexeme_Table_Value odin_main_keys_value_array[292] = {
-{4, TokenOdinKind_Int},
-{4, TokenOdinKind_Union},
-{4, TokenOdinKind_f16},
-{4, TokenOdinKind_foreign},
-{4, TokenOdinKind_b8},
+Lexeme_Table_Value odin_main_keys_value_array[287] = {
+{4, TokenOdinKind_Virtual},
 {0, 0},
-{4, TokenOdinKind_map},
+{4, TokenOdinKind_quaternion64},
 {0, 0},
-{4, TokenOdinKind_in},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_This},
+{4, TokenOdinKind_string},
+{0, 0},
 {4, TokenOdinKind_New},
+{4, TokenOdinKind_Unsigned},
 {0, 0},
 {0, 0},
-{4, TokenOdinKind_i32},
-{4, TokenOdinKind_f32be},
-{4, TokenOdinKind_ThreadLocal},
 {0, 0},
-{4, TokenOdinKind_If},
-{4, TokenOdinKind_i16},
-{4, TokenOdinKind_f64},
-{4, TokenOdinKind_i128le},
 {0, 0},
+{4, TokenOdinKind_bit_set},
+{4, TokenOdinKind_Enum},
+{4, TokenOdinKind_u128le},
+{0, 0},
+{4, TokenOdinKind_Register},
 {4, TokenOdinKind_proc},
-{0, 0},
-{4, TokenOdinKind_Typename},
-{4, TokenOdinKind_b32},
-{4, TokenOdinKind_type_of},
+{4, TokenOdinKind_bit_field},
 {0, 0},
 {0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_no_inline},
-{4, TokenOdinKind_StaticCast},
-{4, TokenOdinKind_rawptr},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_quaternion256},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_opaque},
-{0, 0},
-{4, TokenOdinKind_AlignAs},
-{4, TokenOdinKind_i64le},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_u16le},
-{4, TokenOdinKind_u128be},
-{4, TokenOdinKind_Struct},
-{8, TokenOdinKind_LiteralFalse},
-{4, TokenOdinKind_import},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_Typedef},
-{4, TokenOdinKind_u128},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_uint},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_complex32},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_Double},
-{4, TokenOdinKind_Class},
-{4, TokenOdinKind_Inline},
-{4, TokenOdinKind_or_return},
-{0, 0},
-{4, TokenOdinKind_Bool},
-{0, 0},
-{4, TokenOdinKind_Short},
-{4, TokenOdinKind_f64be},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_i128},
-{0, 0},
-{4, TokenOdinKind_Signed},
+{4, TokenOdinKind_u32le},
+{4, TokenOdinKind_f64le},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
-{0, 0},
-{4, TokenOdinKind_Explicit},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_Template},
-{4, TokenOdinKind_DynamicCast},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_ReinterpretCast},
-{4, TokenOdinKind_or_else},
-{0, 0},
-{4, TokenOdinKind_i64be},
-{4, TokenOdinKind_Const},
-{4, TokenOdinKind_cstring},
+{4, TokenOdinKind_Default},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
-{4, TokenOdinKind_complex128},
 {0, 0},
+{4, TokenOdinKind_f16be},
+{4, TokenOdinKind_Friend},
 {0, 0},
-{0, 0},
-{4, TokenOdinKind_size_of},
-{0, 0},
+{4, TokenOdinKind_Public},
 {0, 0},
 {4, TokenOdinKind_Asm},
 {0, 0},
-{4, TokenOdinKind_Break},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_While},
+{0, 0},
+{0, 0},
 {4, TokenOdinKind_u64be},
-{4, TokenOdinKind_f32le},
+{4, TokenOdinKind_context},
+{4, TokenOdinKind_offset_of},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_uint},
+{4, TokenOdinKind_complex32},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_Operator},
+{4, TokenOdinKind_Break},
+{4, TokenOdinKind_Export},
+{4, TokenOdinKind_Return},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_i128be},
+{4, TokenOdinKind_StaticCast},
+{0, 0},
+{4, TokenOdinKind_Explicit},
+{0, 0},
+{4, TokenOdinKind_f32be},
+{0, 0},
+{4, TokenOdinKind_u64},
+{4, TokenOdinKind_b8},
+{4, TokenOdinKind_Long},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_when},
+{4, TokenOdinKind_quaternion128},
+{4, TokenOdinKind_quaternion256},
+{4, TokenOdinKind_u8},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
-{0, 0},
-{4, TokenOdinKind_TypeID},
-{0, 0},
-{0, 0},
+{4, TokenOdinKind_b64},
+{4, TokenOdinKind_Const},
 {0, 0},
 {0, 0},
-{4, TokenOdinKind_Else},
-{0, 0},
-{4, TokenOdinKind_Delete},
-{4, TokenOdinKind_f64le},
-{4, TokenOdinKind_distinct},
-{4, TokenOdinKind_quaternion64},
-{4, TokenOdinKind_u64le},
-{0, 0},
-{4, TokenOdinKind_Enum},
-{4, TokenOdinKind_u32},
-{4, TokenOdinKind_DeclType},
-{4, TokenOdinKind_NullPtr},
 {0, 0},
 {0, 0},
-{4, TokenOdinKind_u32be},
-{4, TokenOdinKind_nil},
 {0, 0},
+{4, TokenOdinKind_package},
+{0, 0},
+{4, TokenOdinKind_Void},
+{0, 0},
+{4, TokenOdinKind_fallthrough},
+{0, 0},
+{4, TokenOdinKind_ThreadLocal},
+{4, TokenOdinKind_i32be},
+{4, TokenOdinKind_Float},
+{4, TokenOdinKind_i64le},
+{0, 0},
+{4, TokenOdinKind_i64},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_rawptr},
+{4, TokenOdinKind_cast},
 {0, 0},
 {4, TokenOdinKind_Volatile},
 {0, 0},
 {0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_Long},
-{4, TokenOdinKind_not_in},
-{4, TokenOdinKind_u128le},
-{4, TokenOdinKind_Virtual},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_byte},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_Return},
-{0, 0},
-{4, TokenOdinKind_Char},
-{4, TokenOdinKind_f16be},
-{4, TokenOdinKind_cast},
-{4, TokenOdinKind_Do},
-{0, 0},
-{4, TokenOdinKind_f16le},
-{4, TokenOdinKind_Catch},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_transmute},
-{4, TokenOdinKind_Protected},
-{4, TokenOdinKind_i8},
-{4, TokenOdinKind_package},
-{0, 0},
-{4, TokenOdinKind_auto_cast},
-{0, 0},
 {4, TokenOdinKind_StaticAssert},
 {0, 0},
-{4, TokenOdinKind_Void},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_u8},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_dynamic},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_f32},
-{4, TokenOdinKind_Private},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_b64},
-{4, TokenOdinKind_i64},
-{4, TokenOdinKind_i128be},
-{0, 0},
-{4, TokenOdinKind_AlignOf},
-{4, TokenOdinKind_u16be},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_align_of},
-{4, TokenOdinKind_any},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_Friend},
-{4, TokenOdinKind_Static},
-{4, TokenOdinKind_Unsigned},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_While},
-{4, TokenOdinKind_i16le},
-{0, 0},
-{4, TokenOdinKind_Default},
-{4, TokenOdinKind_bit_field},
-{0, 0},
-{4, TokenOdinKind_Using},
-{8, TokenOdinKind_LiteralTrue},
-{4, TokenOdinKind_context},
-{4, TokenOdinKind_Try},
-{0, 0},
-{4, TokenOdinKind_quaternion128},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_Register},
-{4, TokenOdinKind_This},
-{4, TokenOdinKind_Extern},
-{4, TokenOdinKind_Namespace},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
 {4, TokenOdinKind_NoExcept},
-{4, TokenOdinKind_i32be},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_u16},
-{4, TokenOdinKind_Public},
-{4, TokenOdinKind_u32le},
-{4, TokenOdinKind_Float},
-{4, TokenOdinKind_Continue},
-{0, 0},
-{0, 0},
+{4, TokenOdinKind_If},
 {4, TokenOdinKind_Case},
-{4, TokenOdinKind_b16},
+{4, TokenOdinKind_DynamicCast},
+{4, TokenOdinKind_foreign},
 {0, 0},
 {0, 0},
+{4, TokenOdinKind_Continue},
+{4, TokenOdinKind_u16},
+{4, TokenOdinKind_or_return},
 {0, 0},
 {0, 0},
+{4, TokenOdinKind_Signed},
+{4, TokenOdinKind_f16},
+{4, TokenOdinKind_NullPtr},
+{4, TokenOdinKind_size_of},
 {0, 0},
 {0, 0},
-{0, 0},
-{4, TokenOdinKind_Operator},
-{4, TokenOdinKind_complex64},
-{4, TokenOdinKind_bit_set},
-{0, 0},
-{0, 0},
-{4, TokenOdinKind_i16be},
-{4, TokenOdinKind_Switch},
 {4, TokenOdinKind_Goto},
 {0, 0},
+{4, TokenOdinKind_Else},
+{0, 0},
+{8, TokenOdinKind_LiteralFalse},
 {0, 0},
 {0, 0},
-{4, TokenOdinKind_string},
-{4, TokenOdinKind_defer},
-{0, 0},
-{4, TokenOdinKind_fallthrough},
-{0, 0},
-{4, TokenOdinKind_For},
-{4, TokenOdinKind_when},
-{4, TokenOdinKind_offset_of},
-{0, 0},
-{4, TokenOdinKind_Export},
 {0, 0},
 {4, TokenOdinKind_ConstCast},
 {0, 0},
-{4, TokenOdinKind_u64},
+{4, TokenOdinKind_complex128},
+{0, 0},
+{4, TokenOdinKind_u128be},
+{4, TokenOdinKind_or_else},
+{4, TokenOdinKind_f64},
+{4, TokenOdinKind_any},
+{0, 0},
+{4, TokenOdinKind_i16le},
+{4, TokenOdinKind_Typename},
+{4, TokenOdinKind_f64be},
+{4, TokenOdinKind_ReinterpretCast},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_Struct},
+{4, TokenOdinKind_u32be},
+{4, TokenOdinKind_Char},
+{4, TokenOdinKind_complex64},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_b32},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_i128},
+{4, TokenOdinKind_Typedef},
+{4, TokenOdinKind_For},
+{0, 0},
+{4, TokenOdinKind_in},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_map},
+{0, 0},
+{4, TokenOdinKind_Extern},
+{4, TokenOdinKind_i16be},
+{4, TokenOdinKind_u16be},
+{4, TokenOdinKind_align_of},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_b16},
+{0, 0},
+{4, TokenOdinKind_AlignOf},
+{4, TokenOdinKind_type_of},
+{4, TokenOdinKind_Union},
+{4, TokenOdinKind_i8},
+{4, TokenOdinKind_defer},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_i32},
+{4, TokenOdinKind_Private},
+{4, TokenOdinKind_u16le},
+{4, TokenOdinKind_byte},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_auto_cast},
+{4, TokenOdinKind_import},
+{4, TokenOdinKind_i64be},
+{4, TokenOdinKind_Namespace},
+{4, TokenOdinKind_i128le},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_Static},
+{4, TokenOdinKind_Using},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_Template},
+{4, TokenOdinKind_not_in},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_Try},
+{8, TokenOdinKind_LiteralTrue},
+{4, TokenOdinKind_distinct},
+{4, TokenOdinKind_u64le},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_Class},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_cstring},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_Delete},
+{4, TokenOdinKind_nil},
+{4, TokenOdinKind_opaque},
+{0, 0},
 {4, TokenOdinKind_i32le},
+{4, TokenOdinKind_no_inline},
+{4, TokenOdinKind_f32le},
+{0, 0},
+{4, TokenOdinKind_Short},
+{4, TokenOdinKind_Inline},
+{4, TokenOdinKind_i16},
+{0, 0},
+{4, TokenOdinKind_DeclType},
 {0, 0},
 {0, 0},
+{4, TokenOdinKind_Double},
+{4, TokenOdinKind_Switch},
+{4, TokenOdinKind_Protected},
+{4, TokenOdinKind_dynamic},
+{4, TokenOdinKind_TypeID},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_AlignAs},
+{0, 0},
+{4, TokenOdinKind_transmute},
+{0, 0},
+{4, TokenOdinKind_u32},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_Bool},
+{4, TokenOdinKind_f32},
+{4, TokenOdinKind_Int},
+{4, TokenOdinKind_u128},
+{0, 0},
+{0, 0},
+{4, TokenOdinKind_Do},
+{0, 0},
+{4, TokenOdinKind_f16le},
+{0, 0},
+{4, TokenOdinKind_Catch},
 };
-i32 odin_main_keys_slot_count = 292;
-u64 odin_main_keys_seed = 0x9454df47f4c19bd8;
-u64 odin_pp_directives_hash_array[26] = {
-0x0000000000000000,0x5873913115947e9b,0x9851879b9e303609,0x0000000000000000,
-0x5873913101f934a5,0x0000000000000000,0x479ff2ef9c1d6961,0x2121a253f30500c9,
-0x5f32339ee5aad4ab,0x5873913117682b41,0x0000000000000000,0x5f32339ee550e30b,
-0x5f32339ee5a92a39,0x2121a250a667ec17,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x2121a26cbe0f7439,0x5f32339ee550e5d1,0x0000000000000000,
-0x5873913101eb9541,0x0000000000000000,0x58739131122179c1,0x0000000000000000,
-0x2121a253c5a3d3c1,0x985184388889aea5,
+i32 odin_main_keys_slot_count = 287;
+u64 odin_main_keys_seed = 0x841c9c3c170181fb;
+u64 odin_pp_directives_hash_array[25] = {
+0x0000000000000000,0x1a32255f1c165b61,0xdc4750b447b1535b,0x11a65c15d39d1e9b,
+0x0000000000000000,0x0000000000000000,0x7b5a7a709e97c2bb,0x1a32255f6eb462bb,
+0x0000000000000000,0x0000000000000000,0x02fb492f4e500893,0x11a65c021e3b5e97,
+0x11a65c15c7cffb37,0x0000000000000000,0x11a65c16795657ad,0x1a32255f1cfc859b,
+0x0000000000000000,0xdc4750b4480d4e17,0xdc4750b4480d4d51,0x0000000000000000,
+0x02fb4973ffa7f98f,0x1a32255f6ea0fbcb,0x0000000000000000,0x1a32255f1f13e51b,
+0xdc4750b447b152c1,
 };
 u8 odin_pp_directives_key_array_1[] = {0x75,0x73,0x69,0x6e,0x67,};
-u8 odin_pp_directives_key_array_2[] = {0x76,0x65,0x72,0x73,0x69,0x6f,0x6e,};
-u8 odin_pp_directives_key_array_4[] = {0x65,0x72,0x72,0x6f,0x72,};
+u8 odin_pp_directives_key_array_2[] = {0x65,0x6c,0x69,0x66,};
+u8 odin_pp_directives_key_array_3[] = {0x69,0x66,0x6e,0x64,0x65,0x66,};
 u8 odin_pp_directives_key_array_6[] = {0x69,0x66,};
-u8 odin_pp_directives_key_array_7[] = {0x69,0x6d,0x70,0x6f,0x72,0x74,};
-u8 odin_pp_directives_key_array_8[] = {0x6c,0x6f,0x61,0x64,};
-u8 odin_pp_directives_key_array_9[] = {0x75,0x6e,0x64,0x65,0x66,};
-u8 odin_pp_directives_key_array_11[] = {0x65,0x6c,0x73,0x65,};
-u8 odin_pp_directives_key_array_12[] = {0x6c,0x69,0x6e,0x65,};
-u8 odin_pp_directives_key_array_13[] = {0x70,0x72,0x61,0x67,0x6d,0x61,};
-u8 odin_pp_directives_key_array_17[] = {0x64,0x65,0x66,0x69,0x6e,0x65,};
-u8 odin_pp_directives_key_array_18[] = {0x65,0x6c,0x69,0x66,};
-u8 odin_pp_directives_key_array_20[] = {0x65,0x6e,0x64,0x69,0x66,};
-u8 odin_pp_directives_key_array_22[] = {0x69,0x66,0x64,0x65,0x66,};
-u8 odin_pp_directives_key_array_24[] = {0x69,0x66,0x6e,0x64,0x65,0x66,};
-u8 odin_pp_directives_key_array_25[] = {0x69,0x6e,0x63,0x6c,0x75,0x64,0x65,};
-String_Const_u8 odin_pp_directives_key_array[26] = {
+u8 odin_pp_directives_key_array_7[] = {0x65,0x6e,0x64,0x69,0x66,};
+u8 odin_pp_directives_key_array_10[] = {0x76,0x65,0x72,0x73,0x69,0x6f,0x6e,};
+u8 odin_pp_directives_key_array_11[] = {0x64,0x65,0x66,0x69,0x6e,0x65,};
+u8 odin_pp_directives_key_array_12[] = {0x69,0x6d,0x70,0x6f,0x72,0x74,};
+u8 odin_pp_directives_key_array_14[] = {0x70,0x72,0x61,0x67,0x6d,0x61,};
+u8 odin_pp_directives_key_array_15[] = {0x75,0x6e,0x64,0x65,0x66,};
+u8 odin_pp_directives_key_array_17[] = {0x6c,0x69,0x6e,0x65,};
+u8 odin_pp_directives_key_array_18[] = {0x6c,0x6f,0x61,0x64,};
+u8 odin_pp_directives_key_array_20[] = {0x69,0x6e,0x63,0x6c,0x75,0x64,0x65,};
+u8 odin_pp_directives_key_array_21[] = {0x65,0x72,0x72,0x6f,0x72,};
+u8 odin_pp_directives_key_array_23[] = {0x69,0x66,0x64,0x65,0x66,};
+u8 odin_pp_directives_key_array_24[] = {0x65,0x6c,0x73,0x65,};
+String_Const_u8 odin_pp_directives_key_array[25] = {
 {0, 0},
 {odin_pp_directives_key_array_1, 5},
-{odin_pp_directives_key_array_2, 7},
+{odin_pp_directives_key_array_2, 4},
+{odin_pp_directives_key_array_3, 6},
 {0, 0},
-{odin_pp_directives_key_array_4, 5},
 {0, 0},
 {odin_pp_directives_key_array_6, 2},
-{odin_pp_directives_key_array_7, 6},
-{odin_pp_directives_key_array_8, 4},
-{odin_pp_directives_key_array_9, 5},
-{0, 0},
-{odin_pp_directives_key_array_11, 4},
-{odin_pp_directives_key_array_12, 4},
-{odin_pp_directives_key_array_13, 6},
+{odin_pp_directives_key_array_7, 5},
 {0, 0},
 {0, 0},
+{odin_pp_directives_key_array_10, 7},
+{odin_pp_directives_key_array_11, 6},
+{odin_pp_directives_key_array_12, 6},
 {0, 0},
-{odin_pp_directives_key_array_17, 6},
+{odin_pp_directives_key_array_14, 6},
+{odin_pp_directives_key_array_15, 5},
+{0, 0},
+{odin_pp_directives_key_array_17, 4},
 {odin_pp_directives_key_array_18, 4},
 {0, 0},
-{odin_pp_directives_key_array_20, 5},
+{odin_pp_directives_key_array_20, 7},
+{odin_pp_directives_key_array_21, 5},
 {0, 0},
-{odin_pp_directives_key_array_22, 5},
-{0, 0},
-{odin_pp_directives_key_array_24, 6},
-{odin_pp_directives_key_array_25, 7},
+{odin_pp_directives_key_array_23, 5},
+{odin_pp_directives_key_array_24, 4},
 };
-Lexeme_Table_Value odin_pp_directives_value_array[26] = {
+Lexeme_Table_Value odin_pp_directives_value_array[25] = {
 {0, 0},
 {6, TokenOdinKind_PPUsing},
-{6, TokenOdinKind_PPVersion},
+{6, TokenOdinKind_PPElIf},
+{6, TokenOdinKind_PPIfNDef},
 {0, 0},
-{6, TokenOdinKind_PPError},
 {0, 0},
 {6, TokenOdinKind_PPIf},
-{6, TokenOdinKind_PPImport},
-{6, TokenOdinKind_PPLoad},
-{6, TokenOdinKind_PPUndef},
-{0, 0},
-{6, TokenOdinKind_PPElse},
-{6, TokenOdinKind_PPLine},
-{6, TokenOdinKind_PPPragma},
-{0, 0},
-{0, 0},
-{0, 0},
-{6, TokenOdinKind_PPDefine},
-{6, TokenOdinKind_PPElIf},
-{0, 0},
 {6, TokenOdinKind_PPEndIf},
 {0, 0},
-{6, TokenOdinKind_PPIfDef},
 {0, 0},
-{6, TokenOdinKind_PPIfNDef},
+{6, TokenOdinKind_PPVersion},
+{6, TokenOdinKind_PPDefine},
+{6, TokenOdinKind_PPImport},
+{0, 0},
+{6, TokenOdinKind_PPPragma},
+{6, TokenOdinKind_PPUndef},
+{0, 0},
+{6, TokenOdinKind_PPLine},
+{6, TokenOdinKind_PPLoad},
+{0, 0},
 {6, TokenOdinKind_PPInclude},
+{6, TokenOdinKind_PPError},
+{0, 0},
+{6, TokenOdinKind_PPIfDef},
+{6, TokenOdinKind_PPElse},
 };
-i32 odin_pp_directives_slot_count = 26;
-u64 odin_pp_directives_seed = 0x16afbd110b0d12b4;
+i32 odin_pp_directives_slot_count = 25;
+u64 odin_pp_directives_seed = 0x0205dc5ea3299202;
 u64 odin_pp_keys_hash_array[2] = {
-0xc08e9c35d8bcd359,0x0000000000000000,
+0x4d6cfacf849ec35b,0x0000000000000000,
 };
 u8 odin_pp_keys_key_array_0[] = {0x64,0x65,0x66,0x69,0x6e,0x65,0x64,};
 String_Const_u8 odin_pp_keys_key_array[2] = {
@@ -947,7 +934,7 @@ Lexeme_Table_Value odin_pp_keys_value_array[2] = {
 {0, 0},
 };
 i32 odin_pp_keys_slot_count = 2;
-u64 odin_pp_keys_seed = 0xece530a7f7ba4166;
+u64 odin_pp_keys_seed = 0x2d336a15f6527ffc;
 struct Lex_State_Odin{
 u32 flags_ZF0;
 u32 flags_KF0;

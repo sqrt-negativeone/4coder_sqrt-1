@@ -43,381 +43,377 @@ lexeme_table_lookup(u64 *hash_array, String_Const_u8 *key_array,
 }
 
 #endif
-u64 rust_main_keys_hash_array[132] = {
-0x0000000000000000,0xa0d180512498a4cd,0x8473dba7524f52e7,0x0000000000000000,
-0xa0d19f963e6380b5,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0xcd72106385b0fba5,0x8326f7d68be59dfd,0xa0d1805110977667,
-0xa0d180512463acf5,0x0000000000000000,0xcd72106385abbd7f,0x8326f7d68be7e637,
-0x0000000000000000,0x8326f7d68b98347d,0xa0d19f9627677979,0x8473dc77113bfbbb,
-0x0000000000000000,0x0000000000000000,0x0000000000000000,0xd152e2ea33a7cd6b,
-0x8326f7d68be59d03,0x8326f7d68be59bfd,0x0000000000000000,0x1f7ebce1df6b45f7,
-0x8326f7d68be5a4c3,0x8326f7d68be59f9b,0x0000000000000000,0xd152e2ea33a7cd73,
-0x0000000000000000,0x0000000000000000,0xcd72106277320c67,0x8473dba366b7b7bb,
-0x8326f7d68be792c3,0x0000000000000000,0x0000000000000000,0xcd7210638513f837,
-0xa0d18051f4932be7,0x0000000000000000,0x0000000000000000,0xd152e2ea33a7ccfb,
-0x0000000000000000,0x1f7e44aad5de0dd9,0xcd7210638512b3e9,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0xa0d18051f9baa037,0xa0d18051f62b202f,
-0x0000000000000000,0xcd72106385646ce9,0x0000000000000000,0x8326f7d68be7935b,
-0x0000000000000000,0xa0d19f963e62a4c1,0xcd721062773ffda7,0x0000000000000000,
-0xd152e2ea33a7cc05,0xa0d18051089c4771,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x49f393fe3527c537,0xcd721063851291f7,
-0xa0d180510b11a5d7,0x8473dc77783ce53f,0x0000000000000000,0x8326f7d68b9829df,
-0x8473dc76b2be823f,0x8473dc777c03536d,0xcd72106385ab52ff,0x0000000000000000,
-0x0000000000000000,0xcd721063858b5f21,0xd152e2ea33a7c3d5,0x8326f7d68be7ef3b,
-0x0000000000000000,0xa0d18051f9037c19,0xa0d18051f9bde3a7,0xa0d18051f7368bd7,
-0x0000000000000000,0x8326f7d68be5a269,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x8326f7d68b983969,0x187d565bcc501331,0xd152e2ea33a7cca5,
-0xd152e2ea33a7cf3d,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0xfb9ab44f7292b1ed,0x8473dc777c4f16c5,0x8473dc77c45154cf,0x0000000000000000,
-0xcd721062773fec4d,0x0000000000000000,0x0000000000000000,0x490dde27d461e377,
-0x8326f7d68be7fa2b,0xcd721063856d5749,0xcd7210638515427f,0xa0d180511e8b6aff,
-0x0000000000000000,0x8326f7d68be4d8e9,0x0000000000000000,0x8326f7d68be59acb,
-0x0000000000000000,0x49f1e8f0fc06cc85,0x0000000000000000,0xcd72106385b42e5f,
-0x0000000000000000,0x0000000000000000,0x0000000000000000,0xcd721062773feffb,
-0x0000000000000000,0x8326f7d68be7931d,0x490de70fb97c02c7,0x0000000000000000,
+u64 rust_main_keys_hash_array[130] = {
+0x0000000000000000,0x0000000000000000,0x768e7852a0077b01,0x77f63cce8b861b43,
+0x2d0a0a3c5da17441,0x0000000000000000,0x0000000000000000,0x421318b2bb3b6c8d,
+0x0000000000000000,0x768e7852a007e3a3,0x42132683282c4313,0x38da56648fdaf1d1,
+0x0000000000000000,0x2d0a0a3cf96ba74b,0x0000000000000000,0x0000000000000000,
+0x2d0a0a3ce3478ebb,0x0000000000000000,0x0000000000000000,0x0000000000000000,
+0x38da5664916d739d,0x2d0a0a3c45e069df,0x0000000000000000,0x2d0a0a3c5c747a71,
+0x0000000000000000,0x768e7852a0001575,0x0adc8d0de5cc9f33,0x768e7852a0002bcf,
+0x0000000000000000,0x0000000000000000,0x7f5f4d384ede0533,0x77fb72ba13f2f195,
+0x0000000000000000,0x2d0a0a3ce093c433,0x38da566491537c65,0x71c4c52918ba7e05,
+0x2d0a0a3c5e30151d,0x0000000000000000,0x38da5664916bd757,0x38da5664916bd6d5,
+0x768e7852a000f5f7,0x38da56648fdc3465,0x0000000000000000,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x0000000000000000,0x71c4c50457e85715,
+0x2d0a0a3c5daf571d,0x0000000000000000,0x0000000000000000,0x2d0a0a3c5fff12a3,
+0x0000000000000000,0x768e7852a007fd33,0x768e7852a0075e41,0x0000000000000000,
+0x0000000000000000,0x0adc8d0de5cc9e4d,0x71c4c50f4a8a1af5,0x71c4c52918d3efd5,
+0x77f4277a49189051,0x0000000000000000,0x2d0a0a3c45feb3d3,0x0000000000000000,
+0x0000000000000000,0x0adc8d0de5cc9ed7,0x0000000000000000,0x768e7852a0001397,
+0x0adc8d0de5cc9fdf,0x38da56648fa8fb43,0x0000000000000000,0x768e7852a007ec83,
+0x768e7852a0076b87,0x38da5664917f4b97,0x768e7852a000f209,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x0000000000000000,0x2d0a0a3c5a16d0c7,
+0x0000000000000000,0x38da56648fb8cc19,0x0000000000000000,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x38da56649156eead,0x0000000000000000,
+0x71c4c528e832046b,0x0000000000000000,0x0000000000000000,0x768e7852a007270d,
+0x38da566491706fa5,0x0000000000000000,0x2d0a0a3ce3b4efd1,0x0adc8d0de5cc9ef5,
+0x768e7852a007b541,0x77f6342fd0dfad6d,0x38da5664915c9803,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x2d0a0a3ce51f749d,0x0adc8d0de5cc9efd,
+0x0000000000000000,0x768e7852a000e801,0x71c4c529332d9b95,0x0000000000000000,
+0x0000000000000000,0x0adc8d0de5cc9bf7,0x0000000000000000,0x768e7852a0077451,
+0x0000000000000000,0x71c4c528e87f50f3,0x768e7852a00012c1,0x2d0a0a3c5ff3121d,
+0x38da566491541921,0x0000000000000000,0x2d0a0a3cf8d6e4d1,0x0000000000000000,
+0x0000000000000000,0x38da56648fb29957,0x71c4c528c9e05e15,0x0000000000000000,
+0x0000000000000000,0x42132692e93591eb,0x0000000000000000,0x38da56648fae338b,
+0x0000000000000000,0x768e7852a00774e5,
 };
-u8 rust_main_keys_key_array_1[] = {0x63,0x6f,0x6e,0x73,0x74,};
-u8 rust_main_keys_key_array_2[] = {0x62,0x65,0x63,0x6f,0x6d,0x65,};
-u8 rust_main_keys_key_array_4[] = {0x6d,0x61,0x63,0x72,0x6f,};
-u8 rust_main_keys_key_array_13[] = {0x62,0x6f,0x6f,0x6c,};
-u8 rust_main_keys_key_array_14[] = {0x69,0x36,0x34,};
-u8 rust_main_keys_key_array_15[] = {0x63,0x72,0x61,0x74,0x65,};
+u8 rust_main_keys_key_array_2[] = {0x75,0x73,0x65,};
+u8 rust_main_keys_key_array_3[] = {0x61,0x62,0x73,0x74,0x72,0x61,0x63,0x74,};
+u8 rust_main_keys_key_array_4[] = {0x77,0x68,0x69,0x6c,0x65,};
+u8 rust_main_keys_key_array_7[] = {0x61,0x6c,0x69,0x67,0x6e,0x6f,0x66,};
+u8 rust_main_keys_key_array_9[] = {0x6d,0x75,0x74,};
+u8 rust_main_keys_key_array_10[] = {0x75,0x6e,0x73,0x69,0x7a,0x65,0x64,};
+u8 rust_main_keys_key_array_11[] = {0x65,0x6c,0x73,0x65,};
+u8 rust_main_keys_key_array_13[] = {0x66,0x69,0x6e,0x61,0x6c,};
 u8 rust_main_keys_key_array_16[] = {0x62,0x72,0x65,0x61,0x6b,};
-u8 rust_main_keys_key_array_18[] = {0x65,0x6e,0x75,0x6d,};
-u8 rust_main_keys_key_array_19[] = {0x75,0x73,0x65,};
-u8 rust_main_keys_key_array_21[] = {0x6d,0x6f,0x64,};
-u8 rust_main_keys_key_array_22[] = {0x79,0x69,0x65,0x6c,0x64,};
-u8 rust_main_keys_key_array_23[] = {0x72,0x65,0x74,0x75,0x72,0x6e,};
-u8 rust_main_keys_key_array_27[] = {0x69,0x66,};
-u8 rust_main_keys_key_array_28[] = {0x69,0x33,0x32,};
-u8 rust_main_keys_key_array_29[] = {0x66,0x36,0x34,};
-u8 rust_main_keys_key_array_31[] = {0x61,0x6c,0x69,0x67,0x6e,0x6f,0x66,};
-u8 rust_main_keys_key_array_32[] = {0x66,0x6f,0x72,};
-u8 rust_main_keys_key_array_33[] = {0x69,0x31,0x36,};
-u8 rust_main_keys_key_array_35[] = {0x69,0x6e,};
-u8 rust_main_keys_key_array_38[] = {0x6d,0x6f,0x76,0x65,};
-u8 rust_main_keys_key_array_39[] = {0x65,0x78,0x74,0x65,0x72,0x6e,};
-u8 rust_main_keys_key_array_40[] = {0x75,0x33,0x32,};
-u8 rust_main_keys_key_array_43[] = {0x73,0x65,0x6c,0x66,};
-u8 rust_main_keys_key_array_44[] = {0x75,0x6e,0x69,0x6f,0x6e,};
-u8 rust_main_keys_key_array_47[] = {0x66,0x6e,};
-u8 rust_main_keys_key_array_49[] = {0x75,0x6e,0x73,0x69,0x7a,0x65,0x64,};
-u8 rust_main_keys_key_array_50[] = {0x75,0x31,0x32,0x38,};
-u8 rust_main_keys_key_array_54[] = {0x77,0x68,0x69,0x6c,0x65,};
-u8 rust_main_keys_key_array_55[] = {0x73,0x75,0x70,0x65,0x72,};
-u8 rust_main_keys_key_array_57[] = {0x69,0x31,0x32,0x38,};
-u8 rust_main_keys_key_array_59[] = {0x75,0x31,0x36,};
-u8 rust_main_keys_key_array_61[] = {0x6d,0x61,0x74,0x63,0x68,};
-u8 rust_main_keys_key_array_62[] = {0x70,0x75,0x72,0x65,};
-u8 rust_main_keys_key_array_64[] = {0x64,0x6f,};
-u8 rust_main_keys_key_array_65[] = {0x66,0x69,0x6e,0x61,0x6c,};
-u8 rust_main_keys_key_array_70[] = {0x63,0x6f,0x6e,0x74,0x69,0x6e,0x75,0x65,};
-u8 rust_main_keys_key_array_71[] = {0x74,0x72,0x75,0x65,};
-u8 rust_main_keys_key_array_72[] = {0x69,0x73,0x69,0x7a,0x65,};
-u8 rust_main_keys_key_array_73[] = {0x73,0x69,0x7a,0x65,0x6f,0x66,};
-u8 rust_main_keys_key_array_75[] = {0x70,0x75,0x62,};
-u8 rust_main_keys_key_array_76[] = {0x74,0x79,0x70,0x65,0x6f,0x66,};
-u8 rust_main_keys_key_array_77[] = {0x73,0x74,0x61,0x74,0x69,0x63,};
-u8 rust_main_keys_key_array_78[] = {0x65,0x6c,0x73,0x65,};
-u8 rust_main_keys_key_array_81[] = {0x69,0x6d,0x70,0x6c,};
-u8 rust_main_keys_key_array_82[] = {0x75,0x38,};
-u8 rust_main_keys_key_array_83[] = {0x72,0x65,0x66,};
-u8 rust_main_keys_key_array_85[] = {0x74,0x72,0x61,0x69,0x74,};
-u8 rust_main_keys_key_array_86[] = {0x77,0x68,0x65,0x72,0x65,};
-u8 rust_main_keys_key_array_87[] = {0x75,0x73,0x69,0x7a,0x65,};
-u8 rust_main_keys_key_array_89[] = {0x6c,0x65,0x74,};
-u8 rust_main_keys_key_array_93[] = {0x6d,0x75,0x74,};
-u8 rust_main_keys_key_array_94[] = {0x76,0x69,0x72,0x74,0x75,0x61,0x6c,};
-u8 rust_main_keys_key_array_95[] = {0x69,0x38,};
-u8 rust_main_keys_key_array_96[] = {0x61,0x73,};
-u8 rust_main_keys_key_array_104[] = {0x6d,0x61,0x63,0x72,0x6f,0x5f,0x72,0x75,0x6c,0x65,0x73,};
-u8 rust_main_keys_key_array_105[] = {0x73,0x74,0x72,0x75,0x63,0x74,};
+u8 rust_main_keys_key_array_20[] = {0x70,0x75,0x72,0x65,};
+u8 rust_main_keys_key_array_21[] = {0x6d,0x61,0x74,0x63,0x68,};
+u8 rust_main_keys_key_array_23[] = {0x73,0x75,0x70,0x65,0x72,};
+u8 rust_main_keys_key_array_25[] = {0x69,0x31,0x36,};
+u8 rust_main_keys_key_array_26[] = {0x61,0x73,};
+u8 rust_main_keys_key_array_27[] = {0x62,0x6f,0x78,};
+u8 rust_main_keys_key_array_30[] = {0x6d,0x61,0x63,0x72,0x6f,0x5f,0x72,0x75,0x6c,0x65,0x73,};
+u8 rust_main_keys_key_array_31[] = {0x6f,0x66,0x66,0x73,0x65,0x74,0x6f,0x66,};
+u8 rust_main_keys_key_array_33[] = {0x63,0x6f,0x6e,0x73,0x74,};
+u8 rust_main_keys_key_array_34[] = {0x73,0x65,0x6c,0x66,};
+u8 rust_main_keys_key_array_35[] = {0x73,0x69,0x7a,0x65,0x6f,0x66,};
+u8 rust_main_keys_key_array_36[] = {0x75,0x73,0x69,0x7a,0x65,};
+u8 rust_main_keys_key_array_38[] = {0x70,0x72,0x6f,0x63,};
+u8 rust_main_keys_key_array_39[] = {0x70,0x72,0x69,0x76,};
+u8 rust_main_keys_key_array_40[] = {0x66,0x36,0x34,};
+u8 rust_main_keys_key_array_41[] = {0x65,0x6e,0x75,0x6d,};
+u8 rust_main_keys_key_array_47[] = {0x65,0x78,0x74,0x65,0x72,0x6e,};
+u8 rust_main_keys_key_array_48[] = {0x77,0x68,0x65,0x72,0x65,};
+u8 rust_main_keys_key_array_51[] = {0x74,0x72,0x61,0x69,0x74,};
+u8 rust_main_keys_key_array_53[] = {0x6c,0x65,0x74,};
+u8 rust_main_keys_key_array_54[] = {0x73,0x74,0x72,};
+u8 rust_main_keys_key_array_57[] = {0x66,0x6e,};
+u8 rust_main_keys_key_array_58[] = {0x62,0x65,0x63,0x6f,0x6d,0x65,};
+u8 rust_main_keys_key_array_59[] = {0x74,0x79,0x70,0x65,0x6f,0x66,};
+u8 rust_main_keys_key_array_60[] = {0x6f,0x76,0x65,0x72,0x72,0x69,0x64,0x65,};
+u8 rust_main_keys_key_array_62[] = {0x6d,0x61,0x63,0x72,0x6f,};
+u8 rust_main_keys_key_array_65[] = {0x69,0x38,};
+u8 rust_main_keys_key_array_67[] = {0x69,0x36,0x34,};
+u8 rust_main_keys_key_array_68[] = {0x64,0x6f,};
+u8 rust_main_keys_key_array_69[] = {0x69,0x31,0x32,0x38,};
+u8 rust_main_keys_key_array_71[] = {0x6d,0x6f,0x64,};
+u8 rust_main_keys_key_array_72[] = {0x75,0x36,0x34,};
+u8 rust_main_keys_key_array_73[] = {0x6c,0x6f,0x6f,0x70,};
+u8 rust_main_keys_key_array_74[] = {0x66,0x33,0x32,};
+u8 rust_main_keys_key_array_79[] = {0x79,0x69,0x65,0x6c,0x64,};
+u8 rust_main_keys_key_array_81[] = {0x63,0x68,0x61,0x72,};
+u8 rust_main_keys_key_array_86[] = {0x74,0x72,0x75,0x65,};
+u8 rust_main_keys_key_array_88[] = {0x73,0x74,0x61,0x74,0x69,0x63,};
+u8 rust_main_keys_key_array_91[] = {0x72,0x65,0x66,};
+u8 rust_main_keys_key_array_92[] = {0x6d,0x6f,0x76,0x65,};
+u8 rust_main_keys_key_array_94[] = {0x63,0x72,0x61,0x74,0x65,};
+u8 rust_main_keys_key_array_95[] = {0x69,0x66,};
+u8 rust_main_keys_key_array_96[] = {0x70,0x75,0x62,};
+u8 rust_main_keys_key_array_97[] = {0x63,0x6f,0x6e,0x74,0x69,0x6e,0x75,0x65,};
+u8 rust_main_keys_key_array_98[] = {0x75,0x31,0x32,0x38,};
+u8 rust_main_keys_key_array_102[] = {0x69,0x73,0x69,0x7a,0x65,};
+u8 rust_main_keys_key_array_103[] = {0x69,0x6e,};
+u8 rust_main_keys_key_array_105[] = {0x66,0x6f,0x72,};
 u8 rust_main_keys_key_array_106[] = {0x75,0x6e,0x73,0x61,0x66,0x65,};
-u8 rust_main_keys_key_array_108[] = {0x70,0x72,0x6f,0x63,};
-u8 rust_main_keys_key_array_111[] = {0x6f,0x66,0x66,0x73,0x65,0x74,0x6f,0x66,};
-u8 rust_main_keys_key_array_112[] = {0x73,0x74,0x72,};
-u8 rust_main_keys_key_array_113[] = {0x6c,0x6f,0x6f,0x70,};
-u8 rust_main_keys_key_array_114[] = {0x74,0x79,0x70,0x65,};
-u8 rust_main_keys_key_array_115[] = {0x66,0x61,0x6c,0x73,0x65,};
-u8 rust_main_keys_key_array_117[] = {0x62,0x6f,0x78,};
-u8 rust_main_keys_key_array_119[] = {0x66,0x33,0x32,};
-u8 rust_main_keys_key_array_121[] = {0x61,0x62,0x73,0x74,0x72,0x61,0x63,0x74,};
-u8 rust_main_keys_key_array_123[] = {0x63,0x68,0x61,0x72,};
-u8 rust_main_keys_key_array_127[] = {0x70,0x72,0x69,0x76,};
-u8 rust_main_keys_key_array_129[] = {0x75,0x36,0x34,};
-u8 rust_main_keys_key_array_130[] = {0x6f,0x76,0x65,0x72,0x72,0x69,0x64,0x65,};
-String_Const_u8 rust_main_keys_key_array[132] = {
+u8 rust_main_keys_key_array_109[] = {0x75,0x38,};
+u8 rust_main_keys_key_array_111[] = {0x75,0x33,0x32,};
+u8 rust_main_keys_key_array_113[] = {0x73,0x74,0x72,0x75,0x63,0x74,};
+u8 rust_main_keys_key_array_114[] = {0x69,0x33,0x32,};
+u8 rust_main_keys_key_array_115[] = {0x75,0x6e,0x69,0x6f,0x6e,};
+u8 rust_main_keys_key_array_116[] = {0x74,0x79,0x70,0x65,};
+u8 rust_main_keys_key_array_118[] = {0x66,0x61,0x6c,0x73,0x65,};
+u8 rust_main_keys_key_array_121[] = {0x69,0x6d,0x70,0x6c,};
+u8 rust_main_keys_key_array_122[] = {0x72,0x65,0x74,0x75,0x72,0x6e,};
+u8 rust_main_keys_key_array_125[] = {0x76,0x69,0x72,0x74,0x75,0x61,0x6c,};
+u8 rust_main_keys_key_array_127[] = {0x62,0x6f,0x6f,0x6c,};
+u8 rust_main_keys_key_array_129[] = {0x75,0x31,0x36,};
+String_Const_u8 rust_main_keys_key_array[130] = {
 {0, 0},
-{rust_main_keys_key_array_1, 5},
-{rust_main_keys_key_array_2, 6},
 {0, 0},
+{rust_main_keys_key_array_2, 3},
+{rust_main_keys_key_array_3, 8},
 {rust_main_keys_key_array_4, 5},
 {0, 0},
 {0, 0},
+{rust_main_keys_key_array_7, 7},
+{0, 0},
+{rust_main_keys_key_array_9, 3},
+{rust_main_keys_key_array_10, 7},
+{rust_main_keys_key_array_11, 4},
+{0, 0},
+{rust_main_keys_key_array_13, 5},
 {0, 0},
 {0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{rust_main_keys_key_array_13, 4},
-{rust_main_keys_key_array_14, 3},
-{rust_main_keys_key_array_15, 5},
 {rust_main_keys_key_array_16, 5},
 {0, 0},
-{rust_main_keys_key_array_18, 4},
-{rust_main_keys_key_array_19, 3},
-{0, 0},
-{rust_main_keys_key_array_21, 3},
-{rust_main_keys_key_array_22, 5},
-{rust_main_keys_key_array_23, 6},
 {0, 0},
 {0, 0},
+{rust_main_keys_key_array_20, 4},
+{rust_main_keys_key_array_21, 5},
 {0, 0},
-{rust_main_keys_key_array_27, 2},
-{rust_main_keys_key_array_28, 3},
-{rust_main_keys_key_array_29, 3},
+{rust_main_keys_key_array_23, 5},
 {0, 0},
-{rust_main_keys_key_array_31, 7},
-{rust_main_keys_key_array_32, 3},
-{rust_main_keys_key_array_33, 3},
+{rust_main_keys_key_array_25, 3},
+{rust_main_keys_key_array_26, 2},
+{rust_main_keys_key_array_27, 3},
 {0, 0},
-{rust_main_keys_key_array_35, 2},
 {0, 0},
+{rust_main_keys_key_array_30, 11},
+{rust_main_keys_key_array_31, 8},
+{0, 0},
+{rust_main_keys_key_array_33, 5},
+{rust_main_keys_key_array_34, 4},
+{rust_main_keys_key_array_35, 6},
+{rust_main_keys_key_array_36, 5},
 {0, 0},
 {rust_main_keys_key_array_38, 4},
-{rust_main_keys_key_array_39, 6},
+{rust_main_keys_key_array_39, 4},
 {rust_main_keys_key_array_40, 3},
-{0, 0},
-{0, 0},
-{rust_main_keys_key_array_43, 4},
-{rust_main_keys_key_array_44, 5},
-{0, 0},
-{0, 0},
-{rust_main_keys_key_array_47, 2},
-{0, 0},
-{rust_main_keys_key_array_49, 7},
-{rust_main_keys_key_array_50, 4},
-{0, 0},
-{0, 0},
-{0, 0},
-{rust_main_keys_key_array_54, 5},
-{rust_main_keys_key_array_55, 5},
-{0, 0},
-{rust_main_keys_key_array_57, 4},
-{0, 0},
-{rust_main_keys_key_array_59, 3},
-{0, 0},
-{rust_main_keys_key_array_61, 5},
-{rust_main_keys_key_array_62, 4},
-{0, 0},
-{rust_main_keys_key_array_64, 2},
-{rust_main_keys_key_array_65, 5},
+{rust_main_keys_key_array_41, 4},
 {0, 0},
 {0, 0},
 {0, 0},
 {0, 0},
-{rust_main_keys_key_array_70, 8},
-{rust_main_keys_key_array_71, 4},
-{rust_main_keys_key_array_72, 5},
-{rust_main_keys_key_array_73, 6},
 {0, 0},
-{rust_main_keys_key_array_75, 3},
-{rust_main_keys_key_array_76, 6},
-{rust_main_keys_key_array_77, 6},
-{rust_main_keys_key_array_78, 4},
+{rust_main_keys_key_array_47, 6},
+{rust_main_keys_key_array_48, 5},
 {0, 0},
+{0, 0},
+{rust_main_keys_key_array_51, 5},
+{0, 0},
+{rust_main_keys_key_array_53, 3},
+{rust_main_keys_key_array_54, 3},
+{0, 0},
+{0, 0},
+{rust_main_keys_key_array_57, 2},
+{rust_main_keys_key_array_58, 6},
+{rust_main_keys_key_array_59, 6},
+{rust_main_keys_key_array_60, 8},
+{0, 0},
+{rust_main_keys_key_array_62, 5},
+{0, 0},
+{0, 0},
+{rust_main_keys_key_array_65, 2},
+{0, 0},
+{rust_main_keys_key_array_67, 3},
+{rust_main_keys_key_array_68, 2},
+{rust_main_keys_key_array_69, 4},
+{0, 0},
+{rust_main_keys_key_array_71, 3},
+{rust_main_keys_key_array_72, 3},
+{rust_main_keys_key_array_73, 4},
+{rust_main_keys_key_array_74, 3},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{rust_main_keys_key_array_79, 5},
 {0, 0},
 {rust_main_keys_key_array_81, 4},
-{rust_main_keys_key_array_82, 2},
-{rust_main_keys_key_array_83, 3},
-{0, 0},
-{rust_main_keys_key_array_85, 5},
-{rust_main_keys_key_array_86, 5},
-{rust_main_keys_key_array_87, 5},
-{0, 0},
-{rust_main_keys_key_array_89, 3},
 {0, 0},
 {0, 0},
 {0, 0},
-{rust_main_keys_key_array_93, 3},
-{rust_main_keys_key_array_94, 7},
+{0, 0},
+{rust_main_keys_key_array_86, 4},
+{0, 0},
+{rust_main_keys_key_array_88, 6},
+{0, 0},
+{0, 0},
+{rust_main_keys_key_array_91, 3},
+{rust_main_keys_key_array_92, 4},
+{0, 0},
+{rust_main_keys_key_array_94, 5},
 {rust_main_keys_key_array_95, 2},
-{rust_main_keys_key_array_96, 2},
+{rust_main_keys_key_array_96, 3},
+{rust_main_keys_key_array_97, 8},
+{rust_main_keys_key_array_98, 4},
 {0, 0},
 {0, 0},
 {0, 0},
+{rust_main_keys_key_array_102, 5},
+{rust_main_keys_key_array_103, 2},
 {0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{rust_main_keys_key_array_104, 11},
-{rust_main_keys_key_array_105, 6},
+{rust_main_keys_key_array_105, 3},
 {rust_main_keys_key_array_106, 6},
 {0, 0},
-{rust_main_keys_key_array_108, 4},
 {0, 0},
+{rust_main_keys_key_array_109, 2},
 {0, 0},
-{rust_main_keys_key_array_111, 8},
-{rust_main_keys_key_array_112, 3},
-{rust_main_keys_key_array_113, 4},
-{rust_main_keys_key_array_114, 4},
+{rust_main_keys_key_array_111, 3},
+{0, 0},
+{rust_main_keys_key_array_113, 6},
+{rust_main_keys_key_array_114, 3},
 {rust_main_keys_key_array_115, 5},
+{rust_main_keys_key_array_116, 4},
 {0, 0},
-{rust_main_keys_key_array_117, 3},
-{0, 0},
-{rust_main_keys_key_array_119, 3},
-{0, 0},
-{rust_main_keys_key_array_121, 8},
-{0, 0},
-{rust_main_keys_key_array_123, 4},
+{rust_main_keys_key_array_118, 5},
 {0, 0},
 {0, 0},
+{rust_main_keys_key_array_121, 4},
+{rust_main_keys_key_array_122, 6},
+{0, 0},
+{0, 0},
+{rust_main_keys_key_array_125, 7},
 {0, 0},
 {rust_main_keys_key_array_127, 4},
 {0, 0},
 {rust_main_keys_key_array_129, 3},
-{rust_main_keys_key_array_130, 8},
-{0, 0},
 };
-Lexeme_Table_Value rust_main_keys_value_array[132] = {
+Lexeme_Table_Value rust_main_keys_value_array[130] = {
+{0, 0},
+{0, 0},
+{4, TokenRustKind_use},
+{4, TokenRustKind_abstract},
+{4, TokenRustKind_while},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_alignof},
+{0, 0},
+{4, TokenRustKind_mut},
+{4, TokenRustKind_unsized},
+{4, TokenRustKind_else},
+{0, 0},
+{4, TokenRustKind_final},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_break},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_pure},
+{4, TokenRustKind_match},
+{0, 0},
+{4, TokenRustKind_super},
+{0, 0},
+{4, TokenRustKind_i16},
+{4, TokenRustKind_as},
+{4, TokenRustKind_box},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_macro_rules},
+{4, TokenRustKind_offsetof},
 {0, 0},
 {4, TokenRustKind_const},
+{4, TokenRustKind_Self},
+{4, TokenRustKind_sizeof},
+{4, TokenRustKind_usize},
+{0, 0},
+{4, TokenRustKind_proc},
+{4, TokenRustKind_priv},
+{4, TokenRustKind_f64},
+{4, TokenRustKind_enum},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_extern},
+{4, TokenRustKind_where},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_trait},
+{0, 0},
+{4, TokenRustKind_let},
+{4, TokenRustKind_str},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_fn},
 {4, TokenRustKind_become},
+{4, TokenRustKind_typeof},
+{4, TokenRustKind_override},
 {0, 0},
 {4, TokenRustKind_macro},
 {0, 0},
 {0, 0},
+{4, TokenRustKind_i8},
 {0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenRustKind_bool},
 {4, TokenRustKind_i64},
-{4, TokenRustKind_crate},
-{4, TokenRustKind_break},
-{0, 0},
-{4, TokenRustKind_enum},
-{4, TokenRustKind_use},
-{0, 0},
-{4, TokenRustKind_mod},
-{4, TokenRustKind_yield},
-{4, TokenRustKind_return},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenRustKind_if},
-{4, TokenRustKind_i32},
-{4, TokenRustKind_f64},
-{0, 0},
-{4, TokenRustKind_alignof},
-{4, TokenRustKind_for},
-{4, TokenRustKind_i16},
-{0, 0},
-{4, TokenRustKind_in},
-{0, 0},
-{0, 0},
-{4, TokenRustKind_move},
-{4, TokenRustKind_extern},
-{4, TokenRustKind_u32},
-{0, 0},
-{0, 0},
-{4, TokenRustKind_Self},
-{4, TokenRustKind_union},
-{0, 0},
-{0, 0},
-{4, TokenRustKind_fn},
-{0, 0},
-{4, TokenRustKind_unsized},
-{4, TokenRustKind_u128},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenRustKind_while},
-{4, TokenRustKind_super},
-{0, 0},
+{4, TokenRustKind_do},
 {4, TokenRustKind_i128},
 {0, 0},
-{4, TokenRustKind_u16},
-{0, 0},
-{4, TokenRustKind_match},
-{4, TokenRustKind_pure},
-{0, 0},
-{4, TokenRustKind_do},
-{4, TokenRustKind_final},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenRustKind_continue},
-{8, TokenRustKind_LiteralTrue},
-{4, TokenRustKind_isize},
-{4, TokenRustKind_sizeof},
-{0, 0},
-{4, TokenRustKind_pub},
-{4, TokenRustKind_typeof},
-{4, TokenRustKind_static},
-{4, TokenRustKind_else},
-{0, 0},
-{0, 0},
-{4, TokenRustKind_impl},
-{4, TokenRustKind_u8},
-{4, TokenRustKind_ref},
-{0, 0},
-{4, TokenRustKind_trait},
-{4, TokenRustKind_where},
-{4, TokenRustKind_usize},
-{0, 0},
-{4, TokenRustKind_let},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenRustKind_mut},
-{4, TokenRustKind_virtual},
-{4, TokenRustKind_i8},
-{4, TokenRustKind_as},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenRustKind_macro_rules},
-{4, TokenRustKind_struct},
-{4, TokenRustKind_unsafe},
-{0, 0},
-{4, TokenRustKind_proc},
-{0, 0},
-{0, 0},
-{4, TokenRustKind_offsetof},
-{4, TokenRustKind_str},
+{4, TokenRustKind_mod},
+{4, TokenRustKind_u64},
 {4, TokenRustKind_loop},
-{4, TokenRustKind_type},
-{8, TokenRustKind_LiteralFalse},
-{0, 0},
-{4, TokenRustKind_box},
-{0, 0},
 {4, TokenRustKind_f32},
 {0, 0},
-{4, TokenRustKind_abstract},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_yield},
 {0, 0},
 {4, TokenRustKind_char},
 {0, 0},
 {0, 0},
 {0, 0},
-{4, TokenRustKind_priv},
 {0, 0},
-{4, TokenRustKind_u64},
-{4, TokenRustKind_override},
+{8, TokenRustKind_LiteralTrue},
 {0, 0},
+{4, TokenRustKind_static},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_ref},
+{4, TokenRustKind_move},
+{0, 0},
+{4, TokenRustKind_crate},
+{4, TokenRustKind_if},
+{4, TokenRustKind_pub},
+{4, TokenRustKind_continue},
+{4, TokenRustKind_u128},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_isize},
+{4, TokenRustKind_in},
+{0, 0},
+{4, TokenRustKind_for},
+{4, TokenRustKind_unsafe},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_u8},
+{0, 0},
+{4, TokenRustKind_u32},
+{0, 0},
+{4, TokenRustKind_struct},
+{4, TokenRustKind_i32},
+{4, TokenRustKind_union},
+{4, TokenRustKind_type},
+{0, 0},
+{8, TokenRustKind_LiteralFalse},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_impl},
+{4, TokenRustKind_return},
+{0, 0},
+{0, 0},
+{4, TokenRustKind_virtual},
+{0, 0},
+{4, TokenRustKind_bool},
+{0, 0},
+{4, TokenRustKind_u16},
 };
-i32 rust_main_keys_slot_count = 132;
-u64 rust_main_keys_seed = 0x1459c942d09629d9;
+i32 rust_main_keys_slot_count = 130;
+u64 rust_main_keys_seed = 0xfb7e732b4fa3fcff;
 struct Lex_State_Rust{
 u32 flags_ZF0;
 u16 flags_KB0;

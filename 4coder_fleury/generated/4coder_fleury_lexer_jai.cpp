@@ -43,354 +43,356 @@ lexeme_table_lookup(u64 *hash_array, String_Const_u8 *key_array,
 }
 
 #endif
-u64 jai_main_keys_hash_array[90] = {
-0x30c4e57ddd9c03fb,0x8246e8ea5c2f59bb,0x0000000000000000,0x8246e8ea5c35e657,
-0x8246e8ea53f267c9,0x0000000000000000,0x0000000000000000,0x239ffa45fbdc9f4f,
-0x30c4e57ddd9ff3f3,0x2555f5e20e87d9eb,0x0000000000000000,0x239ffa45fbdcf791,
-0x999e3ac504af0b5f,0x0000000000000000,0x239ffa45fbdcad67,0x0000000000000000,
-0xf014fa65bcd78ba9,0x0000000000000000,0x30c4e57ec926215d,0x0000000000000000,
-0x0000000000000000,0x2555f5e20e87d99d,0x0000000000000000,0x30c4e57ddfef0157,
-0x239ffa45fbdf5611,0x239ffa45fbdc9ead,0x0000000000000000,0x999e3b629187ddd5,
-0x0000000000000000,0x0000000000000000,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x239ffa45fbddc38f,0x0000000000000000,0x4aefe3d266f7fb5f,
-0x0000000000000000,0xf014fa7b84ce6b45,0x999e3b6529340517,0x0000000000000000,
-0x0000000000000000,0x0000000000000000,0x0000000000000000,0x999e39bca5745119,
-0x239ffa45fbd00c8d,0x30c4e57ec985bb7d,0x0000000000000000,0x0000000000000000,
-0x8246e8ea539ece97,0x4a58fe7082882201,0xf014fa65a28840ab,0x2555f5e20e87deff,
-0xf014fa65a6ba7f49,0x0000000000000000,0x30c4e39b63c8bbe9,0x8246e8ea53f267fb,
-0x0000000000000000,0x0000000000000000,0x0000000000000000,0x999fadb6c687f2c5,
-0xf014fa65b2c822a1,0x0000000000000000,0x0000000000000000,0x2555f5e20e87dd4b,
-0x0000000000000000,0x999e39bca57456cf,0x30c4e39e02a4b0dd,0x2555f5e20e87d917,
-0x239ffa45fbde24b9,0xf014fa65a79663e3,0x0000000000000000,0x0000000000000000,
-0x8246e8ea53c46aed,0x8246e8ea53c78bc9,0x8246e8ea5c2b5665,0x99082e957833d517,
-0x0000000000000000,0x2555f5e20e87de67,0x4aec2fba38d3e2d5,0x0000000000000000,
-0xf014fa7b851b3023,0x0000000000000000,0x0000000000000000,0x8246e8ea53f2d513,
-0x239ffa45fbdcf725,0x239ffa45fbdcfa4f,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x239ffa45fbdc9e39,
+u64 jai_main_keys_hash_array[92] = {
+0xc18dcdf62f4e212d,0x6e0a4d2afddb1e39,0x0000000000000000,0x6e0a4d2afa92ce27,
+0xc18dcc9034e43db1,0x6e0a4d2afa9c6f1d,0x0000000000000000,0xa980dc47ea3dde0f,
+0xa980dc47ea3dd28f,0x0000000000000000,0x0000000000000000,0xa980dc47ea3dd06b,
+0x2e566c134e154939,0x0000000000000000,0x7e0830f3426f8d9f,0xc18dcc904b00ba2f,
+0x0000000000000000,0x6dd5a5c31e0b3765,0x0000000000000000,0xc18dcc904410c59b,
+0x0000000000000000,0x2e5627f7eaaaf995,0x0000000000000000,0x6dd5a5c31e0b82e3,
+0x6e0a4d2afa9c6f2f,0x6dd5a5c31e084c49,0x0000000000000000,0x6e0a4d2afaaf90c3,
+0x7e0830f34fa9ae1d,0x0000000000000000,0x0000000000000000,0x2e5735dd279beea3,
+0x6e0a4d2afa8a3d01,0x7e0830f08a235249,0x7e0830f34fe03105,0x0000000000000000,
+0x0000000000000000,0x6dd5a5c31e082865,0x0000000000000000,0x0000000000000000,
+0x6dd5a5c31e10d5b5,0x6e0a4d2afa74b99d,0x0000000000000000,0xa980dc47ea3dd1fb,
+0xf7b1b3a07277a35b,0xc18dcc902aa2c859,0x0000000000000000,0x0000000000000000,
+0x0000000000000000,0x0000000000000000,0x6e0a4d2afabf7163,0x8edce0f2b63c5b5b,
+0x8edce158c669081b,0x0000000000000000,0x0000000000000000,0x7e0830f34f0480b7,
+0x0000000000000000,0xa980dc47ea3dd379,0x0000000000000000,0x6dd5a5c31e081233,
+0x7e0830f087dcd12d,0x0000000000000000,0x0000000000000000,0x0000000000000000,
+0x0000000000000000,0x8edd2de1520283e1,0x0000000000000000,0x0000000000000000,
+0x0000000000000000,0x8edce0fef4911791,0x7e0830f08a02312f,0x6dd5a5c31e0b83cb,
+0x0000000000000000,0x6dd5a5c31e084cd5,0x0000000000000000,0x0000000000000000,
+0x6dd5a5c31e176141,0x6dd5a5c31e0828e9,0x0000000000000000,0x0000000000000000,
+0xc18dcdf176d7ff31,0x8edce14c350a3465,0x0000000000000000,0x6e0a4d2afd189be7,
+0x8edce14c350a3913,0x0000000000000000,0xc18dcc904b020b8f,0xa980dc47ea3dd563,
+0x6dd5a5c31e084ce3,0x0000000000000000,0x0000000000000000,0x0000000000000000,
 };
-u8 jai_main_keys_key_array_0[] = {0x73,0x74,0x72,0x75,0x63,0x74,};
-u8 jai_main_keys_key_array_1[] = {0x76,0x6f,0x69,0x64,};
-u8 jai_main_keys_key_array_3[] = {0x6e,0x75,0x6c,0x6c,};
-u8 jai_main_keys_key_array_4[] = {0x63,0x61,0x73,0x65,};
-u8 jai_main_keys_key_array_7[] = {0x75,0x36,0x34,};
-u8 jai_main_keys_key_array_8[] = {0x73,0x74,0x72,0x69,0x6e,0x67,};
-u8 jai_main_keys_key_array_9[] = {0x69,0x74,};
-u8 jai_main_keys_key_array_11[] = {0x73,0x33,0x32,};
-u8 jai_main_keys_key_array_12[] = {0x64,0x65,0x66,0x61,0x75,0x6c,0x74,};
-u8 jai_main_keys_key_array_14[] = {0x6e,0x65,0x77,};
-u8 jai_main_keys_key_array_16[] = {0x77,0x68,0x69,0x6c,0x65,};
-u8 jai_main_keys_key_array_18[] = {0x72,0x65,0x6d,0x6f,0x76,0x65,};
-u8 jai_main_keys_key_array_21[] = {0x69,0x66,};
-u8 jai_main_keys_key_array_23[] = {0x73,0x77,0x69,0x74,0x63,0x68,};
-u8 jai_main_keys_key_array_24[] = {0x41,0x6e,0x79,};
-u8 jai_main_keys_key_array_25[] = {0x75,0x31,0x36,};
-u8 jai_main_keys_key_array_27[] = {0x61,0x6c,0x69,0x67,0x6e,0x6f,0x66,};
-u8 jai_main_keys_key_array_33[] = {0x69,0x6e,0x74,};
-u8 jai_main_keys_key_array_35[] = {0x69,0x74,0x5f,0x69,0x6e,0x64,0x65,0x78,};
-u8 jai_main_keys_key_array_37[] = {0x75,0x6e,0x69,0x6f,0x6e,};
-u8 jai_main_keys_key_array_38[] = {0x63,0x6f,0x6e,0x74,0x65,0x78,0x74,};
-u8 jai_main_keys_key_array_43[] = {0x66,0x6c,0x6f,0x61,0x74,0x33,0x32,};
-u8 jai_main_keys_key_array_44[] = {0x2d,0x2d,0x2d,};
+u8 jai_main_keys_key_array_0[] = {0x64,0x65,0x6c,0x65,0x74,0x65,};
+u8 jai_main_keys_key_array_1[] = {0x74,0x72,0x75,0x65,};
+u8 jai_main_keys_key_array_3[] = {0x62,0x6f,0x6f,0x6c,};
+u8 jai_main_keys_key_array_4[] = {0x72,0x65,0x6d,0x6f,0x76,0x65,};
+u8 jai_main_keys_key_array_5[] = {0x63,0x61,0x73,0x65,};
+u8 jai_main_keys_key_array_7[] = {0x78,0x78,};
+u8 jai_main_keys_key_array_8[] = {0x69,0x74,};
+u8 jai_main_keys_key_array_11[] = {0x73,0x38,};
+u8 jai_main_keys_key_array_12[] = {0x63,0x6f,0x6e,0x74,0x69,0x6e,0x75,0x65,};
+u8 jai_main_keys_key_array_14[] = {0x62,0x72,0x65,0x61,0x6b,};
+u8 jai_main_keys_key_array_15[] = {0x73,0x74,0x72,0x75,0x63,0x74,};
+u8 jai_main_keys_key_array_17[] = {0x66,0x6f,0x72,};
+u8 jai_main_keys_key_array_19[] = {0x73,0x77,0x69,0x74,0x63,0x68,};
+u8 jai_main_keys_key_array_21[] = {0x6f,0x70,0x65,0x72,0x61,0x74,0x6f,0x72,};
+u8 jai_main_keys_key_array_23[] = {0x69,0x6e,0x74,};
+u8 jai_main_keys_key_array_24[] = {0x63,0x61,0x73,0x74,};
+u8 jai_main_keys_key_array_25[] = {0x73,0x31,0x36,};
+u8 jai_main_keys_key_array_27[] = {0x6e,0x75,0x6c,0x6c,};
+u8 jai_main_keys_key_array_28[] = {0x66,0x61,0x6c,0x73,0x65,};
+u8 jai_main_keys_key_array_31[] = {0x69,0x74,0x5f,0x69,0x6e,0x64,0x65,0x78,};
+u8 jai_main_keys_key_array_32[] = {0x65,0x6e,0x75,0x6d,};
+u8 jai_main_keys_key_array_33[] = {0x75,0x6e,0x69,0x6f,0x6e,};
+u8 jai_main_keys_key_array_34[] = {0x64,0x65,0x66,0x65,0x72,};
+u8 jai_main_keys_key_array_37[] = {0x75,0x33,0x32,};
+u8 jai_main_keys_key_array_40[] = {0x41,0x6e,0x79,};
+u8 jai_main_keys_key_array_41[] = {0x65,0x6c,0x73,0x65,};
+u8 jai_main_keys_key_array_43[] = {0x75,0x38,};
+u8 jai_main_keys_key_array_44[] = {0x70,0x75,0x73,0x68,0x5f,0x63,0x6f,0x6e,0x74,0x65,0x78,0x74,};
 u8 jai_main_keys_key_array_45[] = {0x72,0x65,0x74,0x75,0x72,0x6e,};
-u8 jai_main_keys_key_array_48[] = {0x67,0x6f,0x74,0x6f,};
-u8 jai_main_keys_key_array_49[] = {0x6f,0x70,0x65,0x72,0x61,0x74,0x6f,0x72,};
-u8 jai_main_keys_key_array_50[] = {0x66,0x6c,0x6f,0x61,0x74,};
-u8 jai_main_keys_key_array_51[] = {0x75,0x38,};
-u8 jai_main_keys_key_array_52[] = {0x66,0x61,0x6c,0x73,0x65,};
-u8 jai_main_keys_key_array_54[] = {0x64,0x65,0x6c,0x65,0x74,0x65,};
-u8 jai_main_keys_key_array_55[] = {0x63,0x61,0x73,0x74,};
-u8 jai_main_keys_key_array_59[] = {0x73,0x69,0x7a,0x65,0x5f,0x6f,0x66,};
-u8 jai_main_keys_key_array_60[] = {0x64,0x65,0x66,0x65,0x72,};
-u8 jai_main_keys_key_array_63[] = {0x78,0x78,};
-u8 jai_main_keys_key_array_65[] = {0x66,0x6c,0x6f,0x61,0x74,0x36,0x34,};
-u8 jai_main_keys_key_array_66[] = {0x69,0x6e,0x6c,0x69,0x6e,0x65,};
-u8 jai_main_keys_key_array_67[] = {0x64,0x6f,};
-u8 jai_main_keys_key_array_68[] = {0x66,0x6f,0x72,};
-u8 jai_main_keys_key_array_69[] = {0x62,0x72,0x65,0x61,0x6b,};
-u8 jai_main_keys_key_array_72[] = {0x65,0x6e,0x75,0x6d,};
-u8 jai_main_keys_key_array_73[] = {0x65,0x6c,0x73,0x65,};
-u8 jai_main_keys_key_array_74[] = {0x74,0x72,0x75,0x65,};
-u8 jai_main_keys_key_array_75[] = {0x70,0x75,0x73,0x68,0x5f,0x63,0x6f,0x6e,0x74,0x65,0x78,0x74,};
-u8 jai_main_keys_key_array_77[] = {0x73,0x38,};
-u8 jai_main_keys_key_array_78[] = {0x63,0x6f,0x6e,0x74,0x69,0x6e,0x75,0x65,};
-u8 jai_main_keys_key_array_80[] = {0x75,0x73,0x69,0x6e,0x67,};
-u8 jai_main_keys_key_array_83[] = {0x62,0x6f,0x6f,0x6c,};
-u8 jai_main_keys_key_array_84[] = {0x73,0x31,0x36,};
-u8 jai_main_keys_key_array_85[] = {0x73,0x36,0x34,};
-u8 jai_main_keys_key_array_89[] = {0x75,0x33,0x32,};
-String_Const_u8 jai_main_keys_key_array[90] = {
+u8 jai_main_keys_key_array_50[] = {0x67,0x6f,0x74,0x6f,};
+u8 jai_main_keys_key_array_51[] = {0x63,0x6f,0x6e,0x74,0x65,0x78,0x74,};
+u8 jai_main_keys_key_array_52[] = {0x64,0x65,0x66,0x61,0x75,0x6c,0x74,};
+u8 jai_main_keys_key_array_55[] = {0x66,0x6c,0x6f,0x61,0x74,};
+u8 jai_main_keys_key_array_57[] = {0x69,0x66,};
+u8 jai_main_keys_key_array_59[] = {0x75,0x36,0x34,};
+u8 jai_main_keys_key_array_60[] = {0x77,0x68,0x69,0x6c,0x65,};
+u8 jai_main_keys_key_array_65[] = {0x73,0x69,0x7a,0x65,0x5f,0x6f,0x66,};
+u8 jai_main_keys_key_array_69[] = {0x61,0x6c,0x69,0x67,0x6e,0x6f,0x66,};
+u8 jai_main_keys_key_array_70[] = {0x75,0x73,0x69,0x6e,0x67,};
+u8 jai_main_keys_key_array_71[] = {0x6e,0x65,0x77,};
+u8 jai_main_keys_key_array_73[] = {0x73,0x33,0x32,};
+u8 jai_main_keys_key_array_76[] = {0x2d,0x2d,0x2d,};
+u8 jai_main_keys_key_array_77[] = {0x75,0x31,0x36,};
+u8 jai_main_keys_key_array_80[] = {0x69,0x6e,0x6c,0x69,0x6e,0x65,};
+u8 jai_main_keys_key_array_81[] = {0x66,0x6c,0x6f,0x61,0x74,0x33,0x32,};
+u8 jai_main_keys_key_array_83[] = {0x76,0x6f,0x69,0x64,};
+u8 jai_main_keys_key_array_84[] = {0x66,0x6c,0x6f,0x61,0x74,0x36,0x34,};
+u8 jai_main_keys_key_array_86[] = {0x73,0x74,0x72,0x69,0x6e,0x67,};
+u8 jai_main_keys_key_array_87[] = {0x64,0x6f,};
+u8 jai_main_keys_key_array_88[] = {0x73,0x36,0x34,};
+String_Const_u8 jai_main_keys_key_array[92] = {
 {jai_main_keys_key_array_0, 6},
 {jai_main_keys_key_array_1, 4},
 {0, 0},
 {jai_main_keys_key_array_3, 4},
-{jai_main_keys_key_array_4, 4},
+{jai_main_keys_key_array_4, 6},
+{jai_main_keys_key_array_5, 4},
+{0, 0},
+{jai_main_keys_key_array_7, 2},
+{jai_main_keys_key_array_8, 2},
 {0, 0},
 {0, 0},
-{jai_main_keys_key_array_7, 3},
-{jai_main_keys_key_array_8, 6},
-{jai_main_keys_key_array_9, 2},
+{jai_main_keys_key_array_11, 2},
+{jai_main_keys_key_array_12, 8},
 {0, 0},
-{jai_main_keys_key_array_11, 3},
-{jai_main_keys_key_array_12, 7},
+{jai_main_keys_key_array_14, 5},
+{jai_main_keys_key_array_15, 6},
 {0, 0},
-{jai_main_keys_key_array_14, 3},
+{jai_main_keys_key_array_17, 3},
 {0, 0},
-{jai_main_keys_key_array_16, 5},
+{jai_main_keys_key_array_19, 6},
 {0, 0},
-{jai_main_keys_key_array_18, 6},
+{jai_main_keys_key_array_21, 8},
 {0, 0},
-{0, 0},
-{jai_main_keys_key_array_21, 2},
-{0, 0},
-{jai_main_keys_key_array_23, 6},
-{jai_main_keys_key_array_24, 3},
+{jai_main_keys_key_array_23, 3},
+{jai_main_keys_key_array_24, 4},
 {jai_main_keys_key_array_25, 3},
 {0, 0},
-{jai_main_keys_key_array_27, 7},
+{jai_main_keys_key_array_27, 4},
+{jai_main_keys_key_array_28, 5},
 {0, 0},
 {0, 0},
+{jai_main_keys_key_array_31, 8},
+{jai_main_keys_key_array_32, 4},
+{jai_main_keys_key_array_33, 5},
+{jai_main_keys_key_array_34, 5},
 {0, 0},
 {0, 0},
-{0, 0},
-{jai_main_keys_key_array_33, 3},
-{0, 0},
-{jai_main_keys_key_array_35, 8},
-{0, 0},
-{jai_main_keys_key_array_37, 5},
-{jai_main_keys_key_array_38, 7},
+{jai_main_keys_key_array_37, 3},
 {0, 0},
 {0, 0},
+{jai_main_keys_key_array_40, 3},
+{jai_main_keys_key_array_41, 4},
 {0, 0},
-{0, 0},
-{jai_main_keys_key_array_43, 7},
-{jai_main_keys_key_array_44, 3},
+{jai_main_keys_key_array_43, 2},
+{jai_main_keys_key_array_44, 12},
 {jai_main_keys_key_array_45, 6},
 {0, 0},
 {0, 0},
-{jai_main_keys_key_array_48, 4},
-{jai_main_keys_key_array_49, 8},
-{jai_main_keys_key_array_50, 5},
-{jai_main_keys_key_array_51, 2},
-{jai_main_keys_key_array_52, 5},
-{0, 0},
-{jai_main_keys_key_array_54, 6},
-{jai_main_keys_key_array_55, 4},
 {0, 0},
 {0, 0},
+{jai_main_keys_key_array_50, 4},
+{jai_main_keys_key_array_51, 7},
+{jai_main_keys_key_array_52, 7},
 {0, 0},
-{jai_main_keys_key_array_59, 7},
+{0, 0},
+{jai_main_keys_key_array_55, 5},
+{0, 0},
+{jai_main_keys_key_array_57, 2},
+{0, 0},
+{jai_main_keys_key_array_59, 3},
 {jai_main_keys_key_array_60, 5},
 {0, 0},
 {0, 0},
-{jai_main_keys_key_array_63, 2},
+{0, 0},
 {0, 0},
 {jai_main_keys_key_array_65, 7},
-{jai_main_keys_key_array_66, 6},
-{jai_main_keys_key_array_67, 2},
-{jai_main_keys_key_array_68, 3},
-{jai_main_keys_key_array_69, 5},
 {0, 0},
 {0, 0},
-{jai_main_keys_key_array_72, 4},
-{jai_main_keys_key_array_73, 4},
-{jai_main_keys_key_array_74, 4},
-{jai_main_keys_key_array_75, 12},
 {0, 0},
-{jai_main_keys_key_array_77, 2},
-{jai_main_keys_key_array_78, 8},
+{jai_main_keys_key_array_69, 7},
+{jai_main_keys_key_array_70, 5},
+{jai_main_keys_key_array_71, 3},
 {0, 0},
-{jai_main_keys_key_array_80, 5},
+{jai_main_keys_key_array_73, 3},
 {0, 0},
+{0, 0},
+{jai_main_keys_key_array_76, 3},
+{jai_main_keys_key_array_77, 3},
+{0, 0},
+{0, 0},
+{jai_main_keys_key_array_80, 6},
+{jai_main_keys_key_array_81, 7},
 {0, 0},
 {jai_main_keys_key_array_83, 4},
-{jai_main_keys_key_array_84, 3},
-{jai_main_keys_key_array_85, 3},
+{jai_main_keys_key_array_84, 7},
+{0, 0},
+{jai_main_keys_key_array_86, 6},
+{jai_main_keys_key_array_87, 2},
+{jai_main_keys_key_array_88, 3},
 {0, 0},
 {0, 0},
 {0, 0},
-{jai_main_keys_key_array_89, 3},
 };
-Lexeme_Table_Value jai_main_keys_value_array[90] = {
-{4, TokenJaiKind_Struct},
-{4, TokenJaiKind_Void},
+Lexeme_Table_Value jai_main_keys_value_array[92] = {
+{4, TokenJaiKind_Delete},
+{8, TokenJaiKind_LiteralTrue},
 {0, 0},
-{4, TokenJaiKind_Null},
+{4, TokenJaiKind_Bool},
+{4, TokenJaiKind_Remove},
 {4, TokenJaiKind_Case},
 {0, 0},
-{0, 0},
-{4, TokenJaiKind_U64},
-{4, TokenJaiKind_String},
+{4, TokenJaiKind_Autocast},
 {4, TokenJaiKind_It},
 {0, 0},
-{4, TokenJaiKind_S32},
-{4, TokenJaiKind_Default},
-{0, 0},
-{4, TokenJaiKind_New},
-{0, 0},
-{4, TokenJaiKind_While},
-{0, 0},
-{4, TokenJaiKind_Remove},
-{0, 0},
-{0, 0},
-{4, TokenJaiKind_If},
-{0, 0},
-{4, TokenJaiKind_Switch},
-{4, TokenJaiKind_Any},
-{4, TokenJaiKind_U16},
-{0, 0},
-{4, TokenJaiKind_AlignOf},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenJaiKind_Int},
-{0, 0},
-{4, TokenJaiKind_ItIndex},
-{0, 0},
-{4, TokenJaiKind_Union},
-{4, TokenJaiKind_Context},
-{0, 0},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenJaiKind_Float32},
-{4, TokenJaiKind_Uninitialized},
-{4, TokenJaiKind_Return},
-{0, 0},
-{0, 0},
-{4, TokenJaiKind_Goto},
-{4, TokenJaiKind_Operator},
-{4, TokenJaiKind_Float},
-{4, TokenJaiKind_U8},
-{8, TokenJaiKind_LiteralFalse},
-{0, 0},
-{4, TokenJaiKind_Delete},
-{4, TokenJaiKind_Cast},
-{0, 0},
-{0, 0},
-{0, 0},
-{4, TokenJaiKind_SizeOf},
-{4, TokenJaiKind_Defer},
-{0, 0},
-{0, 0},
-{4, TokenJaiKind_Autocast},
-{0, 0},
-{4, TokenJaiKind_Float64},
-{4, TokenJaiKind_Inline},
-{4, TokenJaiKind_Do},
-{4, TokenJaiKind_For},
-{4, TokenJaiKind_Break},
-{0, 0},
-{0, 0},
-{4, TokenJaiKind_Enum},
-{4, TokenJaiKind_Else},
-{8, TokenJaiKind_LiteralTrue},
-{4, TokenJaiKind_PushContext},
 {0, 0},
 {4, TokenJaiKind_S8},
 {4, TokenJaiKind_Continue},
 {0, 0},
-{4, TokenJaiKind_Using},
+{4, TokenJaiKind_Break},
+{4, TokenJaiKind_Struct},
 {0, 0},
+{4, TokenJaiKind_For},
 {0, 0},
-{4, TokenJaiKind_Bool},
+{4, TokenJaiKind_Switch},
+{0, 0},
+{4, TokenJaiKind_Operator},
+{0, 0},
+{4, TokenJaiKind_Int},
+{4, TokenJaiKind_Cast},
 {4, TokenJaiKind_S16},
+{0, 0},
+{4, TokenJaiKind_Null},
+{8, TokenJaiKind_LiteralFalse},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_ItIndex},
+{4, TokenJaiKind_Enum},
+{4, TokenJaiKind_Union},
+{4, TokenJaiKind_Defer},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_U32},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_Any},
+{4, TokenJaiKind_Else},
+{0, 0},
+{4, TokenJaiKind_U8},
+{4, TokenJaiKind_PushContext},
+{4, TokenJaiKind_Return},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_Goto},
+{4, TokenJaiKind_Context},
+{4, TokenJaiKind_Default},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_Float},
+{0, 0},
+{4, TokenJaiKind_If},
+{0, 0},
+{4, TokenJaiKind_U64},
+{4, TokenJaiKind_While},
+{0, 0},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_SizeOf},
+{0, 0},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_AlignOf},
+{4, TokenJaiKind_Using},
+{4, TokenJaiKind_New},
+{0, 0},
+{4, TokenJaiKind_S32},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_Uninitialized},
+{4, TokenJaiKind_U16},
+{0, 0},
+{0, 0},
+{4, TokenJaiKind_Inline},
+{4, TokenJaiKind_Float32},
+{0, 0},
+{4, TokenJaiKind_Void},
+{4, TokenJaiKind_Float64},
+{0, 0},
+{4, TokenJaiKind_String},
+{4, TokenJaiKind_Do},
 {4, TokenJaiKind_S64},
 {0, 0},
 {0, 0},
 {0, 0},
-{4, TokenJaiKind_U32},
 };
-i32 jai_main_keys_slot_count = 90;
-u64 jai_main_keys_seed = 0x6bfa648e9c0ae2b7;
-u64 jai_pp_directives_hash_array[27] = {
-0x1bbaf7d995ad1bbb,0x0000000000000000,0x0ef4731f5e15a4eb,0x90e8cf71d70e939b,
-0x5e110accecc6ddf1,0x0000000000000000,0x1cb5ed208538acb3,0x0ef4731f24c958fb,
-0x0000000000000000,0x0000000000000000,0x5e110accecc6e977,0x1bbaf7d9cbf5db57,
-0x0000000000000000,0x0ef4731f4c2a3dbb,0x0000000000000000,0x5e110accec663fe1,
-0x5e110accec65c07b,0x0ef4731f73236c81,0x0000000000000000,0x0000000000000000,
-0x1cb5ec10753d10af,0x0ef4731f5e17b99b,0x0000000000000000,0x0000000000000000,
-0x0000000000000000,0x1bbaf7c799d1deb7,0x1bbaf7d8754c5b4d,
+i32 jai_main_keys_slot_count = 92;
+u64 jai_main_keys_seed = 0xb3a2b4f1f7f69613;
+u64 jai_pp_directives_hash_array[26] = {
+0x21b126736981ad97,0x0000000000000000,0x21b126737ef6c3cf,0x0000000000000000,
+0x3914796497faf837,0x935fb39c4c4d9f45,0x21b1267377972bcf,0x0000000000000000,
+0x935fb39c4c57be25,0x0000000000000000,0x5e052bf6d629afeb,0x21b1267372fd68f5,
+0x0000000000000000,0x3914795da539b39b,0xb36b465471f43387,0x5e052bf447bfd43b,
+0x0000000000000000,0x0000000000000000,0x5e052bf557ee4bcf,0x5e052bf49c142e71,
+0x0000000000000000,0x935fb39c4c5401fb,0x935fb39c4c4ad387,0x21b126736996aa6f,
+0x0000000000000000,0x0000000000000000,
 };
-u8 jai_pp_directives_key_array_0[] = {0x69,0x66,0x6e,0x64,0x65,0x66,};
-u8 jai_pp_directives_key_array_2[] = {0x65,0x72,0x72,0x6f,0x72,};
-u8 jai_pp_directives_key_array_3[] = {0x69,0x66,};
-u8 jai_pp_directives_key_array_4[] = {0x6c,0x6f,0x61,0x64,};
-u8 jai_pp_directives_key_array_6[] = {0x76,0x65,0x72,0x73,0x69,0x6f,0x6e,};
-u8 jai_pp_directives_key_array_7[] = {0x69,0x66,0x64,0x65,0x66,};
-u8 jai_pp_directives_key_array_10[] = {0x6c,0x69,0x6e,0x65,};
-u8 jai_pp_directives_key_array_11[] = {0x69,0x6d,0x70,0x6f,0x72,0x74,};
-u8 jai_pp_directives_key_array_13[] = {0x75,0x6e,0x64,0x65,0x66,};
-u8 jai_pp_directives_key_array_15[] = {0x65,0x6c,0x73,0x65,};
-u8 jai_pp_directives_key_array_16[] = {0x65,0x6c,0x69,0x66,};
-u8 jai_pp_directives_key_array_17[] = {0x75,0x73,0x69,0x6e,0x67,};
-u8 jai_pp_directives_key_array_20[] = {0x69,0x6e,0x63,0x6c,0x75,0x64,0x65,};
-u8 jai_pp_directives_key_array_21[] = {0x65,0x6e,0x64,0x69,0x66,};
-u8 jai_pp_directives_key_array_25[] = {0x64,0x65,0x66,0x69,0x6e,0x65,};
-u8 jai_pp_directives_key_array_26[] = {0x70,0x72,0x61,0x67,0x6d,0x61,};
-String_Const_u8 jai_pp_directives_key_array[27] = {
-{jai_pp_directives_key_array_0, 6},
+u8 jai_pp_directives_key_array_0[] = {0x65,0x6e,0x64,0x69,0x66,};
+u8 jai_pp_directives_key_array_2[] = {0x75,0x6e,0x64,0x65,0x66,};
+u8 jai_pp_directives_key_array_4[] = {0x76,0x65,0x72,0x73,0x69,0x6f,0x6e,};
+u8 jai_pp_directives_key_array_5[] = {0x65,0x6c,0x73,0x65,};
+u8 jai_pp_directives_key_array_6[] = {0x69,0x66,0x64,0x65,0x66,};
+u8 jai_pp_directives_key_array_8[] = {0x6c,0x6f,0x61,0x64,};
+u8 jai_pp_directives_key_array_10[] = {0x69,0x6d,0x70,0x6f,0x72,0x74,};
+u8 jai_pp_directives_key_array_11[] = {0x75,0x73,0x69,0x6e,0x67,};
+u8 jai_pp_directives_key_array_13[] = {0x69,0x6e,0x63,0x6c,0x75,0x64,0x65,};
+u8 jai_pp_directives_key_array_14[] = {0x69,0x66,};
+u8 jai_pp_directives_key_array_15[] = {0x64,0x65,0x66,0x69,0x6e,0x65,};
+u8 jai_pp_directives_key_array_18[] = {0x69,0x66,0x6e,0x64,0x65,0x66,};
+u8 jai_pp_directives_key_array_19[] = {0x70,0x72,0x61,0x67,0x6d,0x61,};
+u8 jai_pp_directives_key_array_21[] = {0x6c,0x69,0x6e,0x65,};
+u8 jai_pp_directives_key_array_22[] = {0x65,0x6c,0x69,0x66,};
+u8 jai_pp_directives_key_array_23[] = {0x65,0x72,0x72,0x6f,0x72,};
+String_Const_u8 jai_pp_directives_key_array[26] = {
+{jai_pp_directives_key_array_0, 5},
 {0, 0},
 {jai_pp_directives_key_array_2, 5},
-{jai_pp_directives_key_array_3, 2},
-{jai_pp_directives_key_array_4, 4},
 {0, 0},
-{jai_pp_directives_key_array_6, 7},
-{jai_pp_directives_key_array_7, 5},
+{jai_pp_directives_key_array_4, 7},
+{jai_pp_directives_key_array_5, 4},
+{jai_pp_directives_key_array_6, 5},
 {0, 0},
+{jai_pp_directives_key_array_8, 4},
 {0, 0},
-{jai_pp_directives_key_array_10, 4},
-{jai_pp_directives_key_array_11, 6},
+{jai_pp_directives_key_array_10, 6},
+{jai_pp_directives_key_array_11, 5},
 {0, 0},
-{jai_pp_directives_key_array_13, 5},
-{0, 0},
-{jai_pp_directives_key_array_15, 4},
-{jai_pp_directives_key_array_16, 4},
-{jai_pp_directives_key_array_17, 5},
+{jai_pp_directives_key_array_13, 7},
+{jai_pp_directives_key_array_14, 2},
+{jai_pp_directives_key_array_15, 6},
 {0, 0},
 {0, 0},
-{jai_pp_directives_key_array_20, 7},
-{jai_pp_directives_key_array_21, 5},
+{jai_pp_directives_key_array_18, 6},
+{jai_pp_directives_key_array_19, 6},
+{0, 0},
+{jai_pp_directives_key_array_21, 4},
+{jai_pp_directives_key_array_22, 4},
+{jai_pp_directives_key_array_23, 5},
 {0, 0},
 {0, 0},
-{0, 0},
-{jai_pp_directives_key_array_25, 6},
-{jai_pp_directives_key_array_26, 6},
 };
-Lexeme_Table_Value jai_pp_directives_value_array[27] = {
-{6, TokenJaiKind_PPIfNDef},
-{0, 0},
-{6, TokenJaiKind_PPError},
-{6, TokenJaiKind_PPIf},
-{6, TokenJaiKind_PPLoad},
-{0, 0},
-{6, TokenJaiKind_PPVersion},
-{6, TokenJaiKind_PPIfDef},
-{0, 0},
-{0, 0},
-{6, TokenJaiKind_PPLine},
-{6, TokenJaiKind_PPImport},
+Lexeme_Table_Value jai_pp_directives_value_array[26] = {
+{6, TokenJaiKind_PPEndIf},
 {0, 0},
 {6, TokenJaiKind_PPUndef},
 {0, 0},
+{6, TokenJaiKind_PPVersion},
 {6, TokenJaiKind_PPElse},
-{6, TokenJaiKind_PPElIf},
+{6, TokenJaiKind_PPIfDef},
+{0, 0},
+{6, TokenJaiKind_PPLoad},
+{0, 0},
+{6, TokenJaiKind_PPImport},
 {6, TokenJaiKind_PPUsing},
 {0, 0},
-{0, 0},
 {6, TokenJaiKind_PPInclude},
-{6, TokenJaiKind_PPEndIf},
-{0, 0},
-{0, 0},
-{0, 0},
+{6, TokenJaiKind_PPIf},
 {6, TokenJaiKind_PPDefine},
+{0, 0},
+{0, 0},
+{6, TokenJaiKind_PPIfNDef},
 {6, TokenJaiKind_PPPragma},
+{0, 0},
+{6, TokenJaiKind_PPLine},
+{6, TokenJaiKind_PPElIf},
+{6, TokenJaiKind_PPError},
+{0, 0},
+{0, 0},
 };
-i32 jai_pp_directives_slot_count = 27;
-u64 jai_pp_directives_seed = 0xa2f7fc9936f75ca2;
+i32 jai_pp_directives_slot_count = 26;
+u64 jai_pp_directives_seed = 0xbbe030e9908ed8d6;
 u64 jai_pp_keys_hash_array[2] = {
-0x0000000000000000,0x1a4d1af7f2234347,
+0x0000000000000000,0x0dc0a05bd09b9f83,
 };
 u8 jai_pp_keys_key_array_1[] = {0x64,0x65,0x66,0x69,0x6e,0x65,0x64,};
 String_Const_u8 jai_pp_keys_key_array[2] = {
@@ -402,7 +404,7 @@ Lexeme_Table_Value jai_pp_keys_value_array[2] = {
 {4, TokenJaiKind_PPDefined},
 };
 i32 jai_pp_keys_slot_count = 2;
-u64 jai_pp_keys_seed = 0xf64f1d2efb560c63;
+u64 jai_pp_keys_seed = 0x93b85a8cffbf6d1f;
 struct Lex_State_Jai{
 u32 flags_ZF0;
 u32 flags_KF0;
