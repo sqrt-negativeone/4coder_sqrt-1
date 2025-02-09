@@ -810,7 +810,7 @@ draw_highlight_range(Application_Links *app, View_ID view_id,
     b32 has_highlight_range = false;
     Managed_Scope scope = view_get_managed_scope(app, view_id);
     Buffer_ID *highlight_buffer = scope_attachment(app, scope, view_highlight_buffer, Buffer_ID);
-    if (*highlight_buffer != 0){
+    if (highlight_buffer && *highlight_buffer != 0){
         if (*highlight_buffer != buffer){
             view_disable_highlight_range(app, view_id);
         }
