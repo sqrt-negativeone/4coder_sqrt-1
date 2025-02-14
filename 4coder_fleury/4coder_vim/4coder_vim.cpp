@@ -186,8 +186,8 @@ vim_init(Application_Links *app){
 // If it's a pressing feature switch to the more standard (less responsive) implementation
 function b32
 vim_handle_visual_insert_mode(Application_Links *app, Input_Event *event){
-	View_ID view = get_active_view(app, Access_ReadVisible);
-	Buffer_ID buffer = view_get_buffer(app, view, Access_ReadVisible);
+	View_ID view = get_active_view(app, Access_Always);
+	Buffer_ID buffer = view_get_buffer(app, view, Access_Always);
 
 	local_persist i32 count=0;
 
@@ -246,8 +246,8 @@ vim_handle_visual_insert_mode(Application_Links *app, Input_Event *event){
 
 function b32
 vim_handle_replace_mode(Application_Links *app, Input_Event *event){
-	View_ID view = get_active_view(app, Access_ReadVisible);
-	Buffer_ID buffer = view_get_buffer(app, view, Access_ReadVisible);
+	View_ID view = get_active_view(app, Access_Always);
+	Buffer_ID buffer = view_get_buffer(app, view, Access_Always);
 	if(event->kind == InputEventKind_KeyStroke){
 		if(event->key.code == KeyCode_Escape){
 			vim_normal_mode(app);
@@ -347,7 +347,7 @@ vim_handle_input(Application_Links *app, Input_Event *event){
 			Custom_Command_Function *vim_func = (Custom_Command_Function *)IntAsPtr(function_data);
 			if(vim_func){
 				// Pre command stuff
-				View_ID view = get_active_view(app, Access_ReadVisible);
+				View_ID view = get_active_view(app, Access_Always);
 				Managed_Scope scope = view_get_managed_scope(app, view);
 				default_pre_command(app, scope);
 				vim_pre_keystroke_size = vim_keystroke_text.size;
@@ -390,7 +390,7 @@ vim_handle_input(Application_Links *app, Input_Event *event){
 }
 
 function String_Const_u8 vim_get_bot_string(){
-	String_Const_u8 result = vim_bot_text.string;
+	String_Const_u8 result = g_qol_bot_string.string;
 
 	if(vim_is_querying_user_key){ return result; }
 

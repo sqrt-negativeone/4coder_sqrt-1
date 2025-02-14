@@ -13,8 +13,8 @@ function u8 vim_query_user_key(Application_Links *app, String_Const_u8 message){
 	u8 result = 0;
 
 	local_persist u8 vim_bot_temp_buffer[256];
-	u64 size = vim_bot_text.size;
-	block_copy(vim_bot_temp_buffer, vim_bot_text.str, size);
+	u64 size = g_qol_bot_string.size;
+	block_copy(vim_bot_temp_buffer, g_qol_bot_string.str, size);
 	vim_set_bottom_text(message);
 	vim_is_querying_user_key = true;
 	vim_state.chord_resolved = false;

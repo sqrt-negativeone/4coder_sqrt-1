@@ -456,9 +456,9 @@ vim_draw_whole_screen(Application_Links *app, Frame_Info frame_info){
 	String_Const_u8 bot_string = vim_get_bot_string();
 
 	if(vim_use_bottom_cursor){
-		Vec2_f32 p = draw_string(app, face_id, vim_bot_text.string, bot_left, finalize_color(defcolor_text_default, 0));
+		Vec2_f32 p = draw_string(app, face_id, g_qol_bot_string.string, bot_left, finalize_color(defcolor_text_default, 0));
 		if(vim_show_cursor(app)){
-			if(vim_bot_text.size){ p.x -= 0.37f*(p.x - bot_left.x)/vim_bot_text.size; }
+			if(g_qol_bot_string.size){ p.x -= 0.37f*(p.x - bot_left.x)/g_qol_bot_string.size; }
 			draw_string(app, face_id, string_u8_litexpr("|"), p, finalize_color(defcolor_text_default, 0));
 		}
 	}else{

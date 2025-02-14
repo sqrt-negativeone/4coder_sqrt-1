@@ -41,7 +41,7 @@ vim_get_command_from_user(Application_Links *app, i32 *command_ids, i32 command_
 
 #if VIM_USE_BOTTOM_LISTER
 	vim_reset_bottom_text();
-	string_append(&vim_bot_text, string_u8_litexpr(":"));
+	string_append(&g_qol_bot_string, string_u8_litexpr(":"));
 #endif
 	Lister_Result l_result = vim_run_lister(app, lister);
 
@@ -260,7 +260,7 @@ CUSTOM_DOC("Opens an interactive list of all registered themes.")
 	}
 
 #if VIM_USE_BOTTOM_LISTER
-	string_append(&vim_bot_text, string_u8_litexpr("Theme:"));
+	string_append(&g_qol_bot_string, string_u8_litexpr("Theme:"));
 #endif
 	Lister_Result l_result = vim_run_lister(app, lister);
 
@@ -279,7 +279,7 @@ CUSTOM_DOC("Opens an interactive list of all loaded buffers.")
 	Scratch_Block scratch(app);
 #if VIM_USE_BOTTOM_LISTER
 	vim_reset_bottom_text();
-	string_append(&vim_bot_text, string_u8_litexpr("Switch:"));
+	string_append(&g_qol_bot_string, string_u8_litexpr("Switch:"));
 #endif
 	Lister_Result l_result = vim_run_lister_with_refresh_handler(app, scratch, string_u8_litexpr("Switch:"), handlers);
 	Buffer_ID buffer = 0;
@@ -362,7 +362,7 @@ CUSTOM_DOC("Opens an interactive list of all project commands.")
 	lister_set_handlers(lister, &handlers);
 
 	vim_reset_bottom_text();
-	string_append(&vim_bot_text, string_u8_litexpr("Command:"));
+	string_append(&g_qol_bot_string, string_u8_litexpr("Command:"));
 
 	Variable_Handle cmd_list_var = vars_read_key(prj_var, vars_save_string_lit("commands"));
 	String_ID os_id = vars_save_string_lit(OS_NAME);

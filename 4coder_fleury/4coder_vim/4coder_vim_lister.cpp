@@ -388,9 +388,9 @@ vim_run_lister(Application_Links *app, Lister *lister){
 	View_Context_Block ctx_block(app, view, &ctx);
 
 	u8 *begin, *dest;
-	begin = dest = vim_bot_text.str + vim_bot_text.size;
+	begin = dest = g_qol_bot_string.str + g_qol_bot_string.size;
 	u64 base_size, after_size;
-	base_size = after_size = vim_bot_text.size;
+	base_size = after_size = g_qol_bot_string.size;
 
 	User_Input in = {};
 	for(;;){
@@ -398,7 +398,7 @@ vim_run_lister(Application_Links *app, Lister *lister){
 		i32 col_num = col_row.x;
 		i32 visible_count = col_row.x*col_row.y;
 		block_copy(dest, lister->text_field.str, lister->text_field.size);
-		vim_bot_text.size = after_size + lister->text_field.size;
+		g_qol_bot_string.size = after_size + lister->text_field.size;
 		animate_in_n_milliseconds(app, 0);
 
 		Lister_Activation_Code result = ListerActivation_Continue;
@@ -451,7 +451,7 @@ vim_run_lister(Application_Links *app, Lister *lister){
 						if(in_range(0, lister->raw_item_index, lister->options.count)){
 							user_data = lister_get_user_data(lister, lister->raw_item_index);
 							block_copy(dest, lister->highlighted_node->string.str, lister->highlighted_node->string.size);
-							vim_bot_text.size = base_size + lister->highlighted_node->string.size;
+							g_qol_bot_string.size = base_size + lister->highlighted_node->string.size;
 						}
 						lister_activate(app, lister, user_data, false);
 						result = ListerActivation_Finished;
@@ -554,10 +554,10 @@ vim_run_lister(Application_Links *app, Lister *lister){
 	if(do_invalidate){ vim_lister_view_id = 0; }
 
 	if(!in.abort){
-		String_Const_u8 command_name = string_substring(vim_bot_text.string, Ii64(base_size,vim_bot_text.size));
+		String_Const_u8 command_name = string_substring(g_qol_bot_string.string, Ii64(base_size,g_qol_bot_string.size));
 		vim_register_copy(&vim_registers.command, command_name);
 		vim_update_registers(app);
-		string_append(&vim_bot_text, string_u8_litexpr(" "));
+		string_append(&g_qol_bot_string, string_u8_litexpr(" "));
 	}
 
 	ret = lister->out;

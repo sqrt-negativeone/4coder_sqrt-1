@@ -60,9 +60,9 @@ vim_start_search_inner(Application_Links *app, Scan_Direction start_direction){
 	vim_use_bottom_cursor = true;
 	String_Const_u8 prefix = (start_direction == Scan_Forward ? string_u8_litexpr("/") : string_u8_litexpr("?"));
 	vim_set_bottom_text(prefix);
-	u8 *dest = vim_bot_text.str + vim_bot_text.size;
+	u8 *dest = g_qol_bot_string.str + g_qol_bot_string.size;
 	u64 base_size, after_size;
-	base_size = after_size = vim_bot_text.size;
+	base_size = after_size = g_qol_bot_string.size;
 
 	Vim_Register *reg = &vim_registers.search;
 	if(reg->data.size < 256){ vim_realloc_string(&reg->data, 0); }
@@ -78,7 +78,7 @@ vim_start_search_inner(Application_Links *app, Scan_Direction start_direction){
 		animate_in_n_milliseconds(app, 0);
 		vim_set_bottom_text(prefix);
 		block_copy(dest, query->str, query->size);
-		vim_bot_text.size = after_size + query->size;
+		g_qol_bot_string.size = after_size + query->size;
 
 		in = get_next_input(app, EventPropertyGroup_Any, EventProperty_Escape);
 		if(in.abort){ query->size = 0; break; }
