@@ -10,9 +10,9 @@ global Vim_Text_Object vim_text_object_vtable[VIM_TEXT_OBJECT_COUNT + VIM_ADDITI
 
 global Vim_Global_Mark vim_global_marks[26];
 
-global u8 vim_bot_buffer[256];
 #if 0
-global String_u8 vim_bot_text = Su8(vim_bot_buffer, 0, ArrayCount(vim_bot_buffer));
+global u8 g_qol_bot_buffer[256];
+global String_u8 vim_bot_text = Su8(g_qol_bot_buffer, 0, ArrayCount(g_qol_bot_buffer));
 #endif
 global bool vim_is_querying_user_key;
 global bool vim_is_selecting_register;
@@ -75,7 +75,7 @@ CUSTOM_ID(attachment, vim_view_jumps);
 function void vim_reset_bottom_text(){ g_qol_bot_string.size=0; }
 
 function void vim_set_bottom_text(i32 size, char *str){
-	block_copy(vim_bot_buffer, str, size);
+	block_copy(g_qol_bot_buffer, str, size);
 	g_qol_bot_string.size = size;
 }
 function void vim_set_bottom_text(String_Const_u8 msg){ vim_set_bottom_text(string_expand((msg))); }
